@@ -16,16 +16,16 @@ const Gallery = () => {
         </GalleryH1>
         <GalleryWrapper>
             <GalleryCard>
-                <GalleryH2>Massage</GalleryH2>
-                <GalleryP>These are the Gallery we offer</GalleryP>
+                <GalleryH2>Photo</GalleryH2>
+                <GalleryP>caption</GalleryP>
             </GalleryCard>
             <GalleryCard>
-                <GalleryH2>Massage 2</GalleryH2>
-                <GalleryP>These are the Gallery we offer</GalleryP>
+                <GalleryH2>Photo 2</GalleryH2>
+                <GalleryP>caption</GalleryP>
             </GalleryCard>
             <GalleryCard>
-                <GalleryH2>Massage 3</GalleryH2>
-                <GalleryP>These are the Gallery we offer</GalleryP>
+                <GalleryH2>Photo 3</GalleryH2>
+                <GalleryP>caption</GalleryP>
             </GalleryCard>
         </GalleryWrapper>
     </GalleryContainer>
