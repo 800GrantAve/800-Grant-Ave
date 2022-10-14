@@ -4,8 +4,8 @@ import {
     HeroBg, 
     ImgBg, 
     HeroContent, 
-    HeroH1, 
-    HeroP
+    HeroH1,
+    HeroH2
 } from './HeroElements'
 import Image from '../../images/jade.jpg'
 
@@ -19,9 +19,7 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
             <HeroH1>Shing Chong</HeroH1>
-            <HeroP>
-                Take a look around
-            </HeroP>
+            <HeroH2>800 Grant Avenue, San Francisco</HeroH2>
         </HeroContent>
     </HeroContainer>
   )
