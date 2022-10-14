@@ -1,24 +1,16 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { 
     HeroContainer, 
     HeroBg, 
     ImgBg, 
     HeroContent, 
     HeroH1, 
-    HeroP, 
-    HeroBtnWrapper, 
-    ArrowForward, 
-    ArrowRight 
+    HeroP
 } from './HeroElements'
-import Image from '../../images/candle.jpg'
-import { Button } from '../ButtonElement'
+import Image from '../../images/jade.jpg'
+
 
 const HeroSection = () => {
-  const [hover, setHover] = useState(false)
-
-  const onHover = () => {
-    setHover(!hover)
-  }
 
   return (
     <HeroContainer id='home'>
@@ -26,25 +18,10 @@ const HeroSection = () => {
             <ImgBg src={Image} />
         </HeroBg>
         <HeroContent>
-            <HeroH1>Welcome to the App</HeroH1>
+            <HeroH1>Shing Chong</HeroH1>
             <HeroP>
                 Take a look around
             </HeroP>
-            <HeroBtnWrapper>
-                <Button
-                    onMouseEnter={onHover}
-                    onMouseLeave={onHover}
-                    primary='true'
-                    dark='true'
-                    smooth={true} 
-                    duration={500} 
-                    spy={true} 
-                    exact='true' 
-                    offset={-80}                        
-                >
-                    Book an Appointment {hover ? <ArrowForward /> : <ArrowRight />}
-                </Button>
-            </HeroBtnWrapper>
         </HeroContent>
     </HeroContainer>
   )
