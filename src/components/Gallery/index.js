@@ -8,7 +8,8 @@ import {
     GalleryH2, 
     GalleryP } from './GalleryElements'
 
-const Gallery = () => {
+
+const ImageGallery = () => {
   return (
     <GalleryContainer>
         <GalleryH1>
@@ -49,4 +50,4 @@ const Gallery = () => {
   )
 }
 
-export default Gallery
+export default ImageGallery
