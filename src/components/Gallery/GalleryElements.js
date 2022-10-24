@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const GalleryContainer = styled.div`
     /* height: 2000px; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center;
     align-items: center; */
     background: #010606;
 
@@ -18,13 +18,15 @@ export const GalleryContainer = styled.div`
 `;
 
 export const GalleryWrapper = styled.div`
-    /* max-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     display: grid;
     rgrid-template-columns: 1fr;
     align-items: center;
-    grid-gap: 16px; 
-    padding: 0 50px; */
+    grid-gap: 20px; 
+    padding: 0 50px;
+
+
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
@@ -65,6 +67,7 @@ export const GalleryH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 10px;
+    text-align: center
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;

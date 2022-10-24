@@ -9,34 +9,25 @@ import {
     // GalleryP 
 } from './GalleryElements'
 import StoreGallery from '../StoreGallery/StoreGallery'
+import LouieGallery from '../LouieGallery/LouieGallery'
 
 
 const ImageGallery = () => {
   return (
     <GalleryContainer>
+        <GalleryWrapper>
         <GalleryH1>
             The Store
         </GalleryH1>
-        <GalleryWrapper>
             <StoreGallery />
         </GalleryWrapper>
-        {/* <GalleryH1>
-            Louie Wee Lee
-        </GalleryH1>
+
         <GalleryWrapper>
-            <GalleryCard>
-                <GalleryH2>Photo</GalleryH2>
-                <GalleryP>caption</GalleryP>
-            </GalleryCard>
-            <GalleryCard>
-                <GalleryH2>Photo 2</GalleryH2>
-                <GalleryP>caption</GalleryP>
-            </GalleryCard>
-            <GalleryCard>
-                <GalleryH2>Photo 3</GalleryH2>
-                <GalleryP>caption</GalleryP>
-            </GalleryCard>
-        </GalleryWrapper> */}
+            <GalleryH1>
+                Louie Wee Lee
+            </GalleryH1>
+            <LouieGallery />
+        </GalleryWrapper>
     </GalleryContainer>
   )
 }
