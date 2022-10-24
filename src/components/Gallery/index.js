@@ -3,10 +3,12 @@ import {
     GalleryContainer, 
     GalleryH1, 
     GalleryWrapper, 
-    GalleryCard, 
+    // GalleryCard, 
     // GalleryIcon, 
-    GalleryH2, 
-    GalleryP } from './GalleryElements'
+    // GalleryH2, 
+    // GalleryP 
+} from './GalleryElements'
+import StoreGallery from '../StoreGallery/StoreGallery'
 
 
 const ImageGallery = () => {
@@ -16,20 +18,9 @@ const ImageGallery = () => {
             The Store
         </GalleryH1>
         <GalleryWrapper>
-            <GalleryCard>
-                <GalleryH2>Photo</GalleryH2>
-                <GalleryP>caption</GalleryP>
-            </GalleryCard>
-            <GalleryCard>
-                <GalleryH2>Photo 2</GalleryH2>
-                <GalleryP>caption</GalleryP>
-            </GalleryCard>
-            <GalleryCard>
-                <GalleryH2>Photo 3</GalleryH2>
-                <GalleryP>caption</GalleryP>
-            </GalleryCard>
+            <StoreGallery />
         </GalleryWrapper>
-        <GalleryH1>
+        {/* <GalleryH1>
             Louie Wee Lee
         </GalleryH1>
         <GalleryWrapper>
@@ -45,7 +36,7 @@ const ImageGallery = () => {
                 <GalleryH2>Photo 3</GalleryH2>
                 <GalleryP>caption</GalleryP>
             </GalleryCard>
-        </GalleryWrapper>
+        </GalleryWrapper> */}
     </GalleryContainer>
   )
 }

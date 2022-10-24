@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const GalleryContainer = styled.div`
-    height: 800px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,12 +18,12 @@ export const GalleryContainer = styled.div`
 `;
 
 export const GalleryWrapper = styled.div`
-    max-width: 1000px;
+    max-width: 100vh;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid; */
+    rgrid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    grid-gap: 16px;
+    grid-gap: 16px; 
     padding: 0 50px;
 
     @media screen and (max-width: 1000px) {
