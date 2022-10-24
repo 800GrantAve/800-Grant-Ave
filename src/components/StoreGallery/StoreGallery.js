@@ -5,21 +5,32 @@ const images = [
   {
     original: require('../../images/store/sign-0001.jpg'),
     thumbnail: require('../../images/store/sign-0001.jpg'),
-    description: 'description here',
-    originalTitle: 'Shing Chong Store'
+    originalHeight: 650
+  },
+  {
+    original: require('../../images/store/according.jpeg'),
+    thumbnail: require('../../images/store/according.jpeg'),
+    originalHeight: 650
   },
   {
     original: require('../../images/store/louie.jpg'),
     thumbnail: require('../../images/store/louie.jpg'),
-    description: 'According to records, Louie Wee Lee came to America about 1900. He lsited himself as the son of a merchannt for a store named Bow Kee & Co. he returned to China, married and had a son, then returned alone in 1906',
+    originalHeight: 650
   },
   {
     original: require('../../images/store/clay_st.jpg'),
     thumbnail: require('../../images/store/clay_st.jpg'),
+    originalHeight: 650
   },
   {
     original: require('../../images/store/clayst.jpg'),
     thumbnail: require('../../images/store/clayst.jpg'),
+    originalHeight: 650
+  },
+  {
+    original: require('../../images/store/claycar.jpg'),
+    thumbnail: require('../../images/store/claycar.jpg'),
+    originalHeight: 650
   },
 ];
 
