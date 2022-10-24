@@ -1,16 +1,17 @@
 import { Gallery } from 'react-grid-gallery'
+import { StoreImgsContainer } from './StoreImagesElements';
 
 const IMAGES = [
     {
        src: require('../../images/store/part1.jpg'),
-       width: 300,
-       height: 300,
+       width: 600,
+       height: 600,
        caption: "Shing Ching Store",
     },
     {
        src: require('../../images/store/sign-0001.jpg'),
-       width: 300,
-       height: 300,
+       width: 600,
+       height: 600,
        tags: [
           { value: "Ocean", title: "Ocean" },
           { value: "People", title: "People" },
@@ -19,17 +20,24 @@ const IMAGES = [
     },
  
     {
-       src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-       width: 320,
-       height: 212,
+       src: require('../../images/store/according.jpeg'),
+       width: 600,
+       height: 600,
     },
  ];
- 
+
  const StoreImages = () => {
     return (
+      <StoreImgsContainer>
         <Gallery 
             images={IMAGES}
+            enableImageSelection={false}
+            rowHeight='250'
+            // enableLightbox={true}
+            // backdropClosesModal
         />
+      </StoreImgsContainer>
+
     )
  }
 
