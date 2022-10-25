@@ -18,7 +18,7 @@ export const GalleryContainer = styled.div`
 `;
 
 export const GalleryWrapper = styled.div`
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     display: grid;
     rgrid-template-columns: 1fr;

@@ -9,8 +9,7 @@ import {
     // GalleryP 
 } from './GalleryElements'
 import StoreGallery from '../StoreGallery/StoreGallery'
-import LouieGallery from '../LouieGallery/LouieGallery'
-
+// import LouieGallery from '../LouieGallery/LouieGallery'
 
 const ImageGallery = () => {
   return (
@@ -21,13 +20,13 @@ const ImageGallery = () => {
         </GalleryH1>
             <StoreGallery />
         </GalleryWrapper>
-
+{/* 
         <GalleryWrapper>
             <GalleryH1>
                 Louie Wee Lee
             </GalleryH1>
             <LouieGallery />
-        </GalleryWrapper>
+        </GalleryWrapper> */}
     </GalleryContainer>
   )
 }
