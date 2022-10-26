@@ -5,6 +5,8 @@ import ImageGallery from '../components/Gallery'
 import Footer from '../components/Footer'
 import StoreImages from '../components/StoreGallery/StoreImages'
 // import StoreGallery from '../components/StoreGallery/StoreGallery'
+import SlideCarousel from '../components/SlideCarousel/SlideCarousel'
+import SlideGallery from '../components/Slides/SlideGallery'
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
         <ImageGallery />
         {/* <StoreImages /> */}
         {/* <StoreGallery /> */}
+        <SlideCarousel />
+        {/* <SlideGallery /> */}
         <Footer />
     </>
   )
