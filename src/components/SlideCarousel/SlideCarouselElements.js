@@ -9,8 +9,8 @@ export const SlideCarouselContainer = styled.div`
     /* color: #f1f1f1; */
     /* background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')}; */
     height: 800px;
-    padding-top: 250px;
-    background: #fff;
+    padding-top: 400px;
+    background: #f9f9f9;
     /* display: flex;
     flex-wrap: nowrap;
     overflow: hidden; */

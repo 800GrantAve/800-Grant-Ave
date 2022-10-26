@@ -20,6 +20,14 @@ const SlideCarousel = () => {
     const [currentSlide, setCurrentSlide] = useState(0)
     const length = slides.length
 
+    const nextSlide = () => {
+        setCurrentSlide(currentSlide === length - 1 ? 0 : currentSlide + 1)
+    }
+
+    // const prevSlide = () => {
+    //     setCurrentSlide(currentSlide === 0 ? length - 1 : currentSlide - 1)
+    // }
+
 
     const carouselInfiniteScroll = () => {
         if (currentSlide === slides.length - 1) {
@@ -40,10 +48,10 @@ const SlideCarousel = () => {
         <SlideCarouselWrapper>
         <ArrowLeft />
         <ArrowRight />
-            { slides.map((item, index) => {
+            { slides.map((slide, index) => {
                 return (
                 <SlideCarouselItem style={{transform: `translate(-${currentSlide * 100}%)`}} key={index}>
-                    {item}
+                    {slide}
                 </SlideCarouselItem>)
             })}
         </SlideCarouselWrapper>
