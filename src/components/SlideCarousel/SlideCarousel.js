@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import {
     slideOne,
     slideTwo,
@@ -15,42 +15,46 @@ import {
 const SlideCarousel = () => {
     const slides = [
     <SlideGallery {...slideOne} />,
-    // <SlideGallery {...slideTwo} />
+    <SlideGallery {...slideTwo} />
 ]
     const [currentSlide, setCurrentSlide] = useState(0)
     const length = slides.length
 
     const nextSlide = () => {
         setCurrentSlide(currentSlide === length - 1 ? 0 : currentSlide + 1)
+        console.log(currentSlide)
     }
 
-    // const prevSlide = () => {
-    //     setCurrentSlide(currentSlide === 0 ? length - 1 : currentSlide - 1)
+    const prevSlide = () => {
+        setCurrentSlide(currentSlide === 0 ? length - 1 : currentSlide - 1)
+    }
+
+    // if (!Array.isArray(slides) || slides.length <= 0) {
+    //     return null
     // }
 
 
-    const carouselInfiniteScroll = () => {
-        if (currentSlide === slides.length - 1) {
-            return setCurrentSlide(0)
-        }
-        return setCurrentSlide(currentSlide + 1)
-    }
+    // const carouselInfiniteScroll = () => {
+    //     if (currentSlide === slides.length - 1) {
+    //         return setCurrentSlide(0)
+    //     }
+    //     return setCurrentSlide(currentSlide + 1)
+    // }
 
-    useEffect(() => {
-        const interval = setInterval(() => {carouselInfiniteScroll()}, 3000)
-        // clean up function
-        return () => clearInterval(interval)
-    })
+    // useEffect(() => {
+    //     const interval = setInterval(() => {carouselInfiniteScroll()}, 3000)
+    //     // clean up function
+    //     return () => clearInterval(interval)
+    // })
 
   return (
     <SlideCarouselContainer>
-
         <SlideCarouselWrapper>
-        <ArrowLeft />
-        <ArrowRight />
+        <ArrowLeft onClick={prevSlide} />
+        <ArrowRight onClick={nextSlide} />
             { slides.map((slide, index) => {
                 return (
-                <SlideCarouselItem style={{transform: `translate(-${currentSlide * 100}%)`}} key={index}>
+                <SlideCarouselItem key={index}>
                     {slide}
                 </SlideCarouselItem>)
             })}
@@ -58,16 +62,5 @@ const SlideCarousel = () => {
     </SlideCarouselContainer>
   )
 }
-
-// const SlideCarousel = () => {
-//     return(
-//         <SlideCarouselContainer>
-//             <SlideCarouselWrapper>
-//                 <SlideGallery {...slideOne} />
-//                 <SlideGallery {...slideTwo} />
-//             </SlideCarouselWrapper>
-//         </SlideCarouselContainer>
-//     )
-// }
 
 export default SlideCarousel

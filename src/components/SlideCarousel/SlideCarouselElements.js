@@ -28,13 +28,13 @@ export const SlideCarouselWrapper = styled.div`
 `
 
 export const SlideCarouselItem = styled.div`
-    height: 20rem;
+    /* height: 20rem;
     min-width: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1); */
 `
 export const ArrowLeft = styled(FaArrowAltCircleLeft)`
     position: absolute;
