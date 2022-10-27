@@ -29,3 +29,19 @@ export const slideTwo = {
     primary: true,
     darkText: false
 }
+
+export const slideThree = {
+    id: 'part2',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Shing Chong Store',
+    headline: 'Hello',
+    description: 'According to records, Louie Wee Lee came to America about 1900. He listed himself as the some of a merchant for a store named Boew Kee & Co. He returned to China, marriedand had a son, then returned alone in 1906',
+    imgStart: true,
+    img: require('../../images/store/clay_st.jpg'),
+    alt: 'Plane',
+    dark: true,
+    primary: true,
+    darkText: false
+}
