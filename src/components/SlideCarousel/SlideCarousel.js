@@ -29,24 +29,6 @@ const SlideCarousel = () => {
         setCurrentSlide(currentSlide === 0 ? length - 1 : currentSlide - 1)
     }
 
-    // if (!Array.isArray(slides) || slides.length <= 0) {
-    //     return null
-    // }
-
-
-    // const carouselInfiniteScroll = () => {
-    //     if (currentSlide === slides.length - 1) {
-    //         return setCurrentSlide(0)
-    //     }
-    //     return setCurrentSlide(currentSlide + 1)
-    // }
-
-    // useEffect(() => {
-    //     const interval = setInterval(() => {carouselInfiniteScroll()}, 3000)
-    //     // clean up function
-    //     return () => clearInterval(interval)
-    // })
-
   return (
     <SlideCarouselContainer>
         <SlideCarouselWrapper>
