@@ -14,8 +14,12 @@ import {
 
 const SlideCarousel = () => {
     const slides = [
-    <SlideGallery {...slideOne} />,
-    <SlideGallery {...slideTwo} />
+        {
+            item: slideOne
+        },
+        {
+            item: slideTwo
+        },
 ]
     const [currentSlide, setCurrentSlide] = useState(0)
     const length = slides.length
@@ -37,7 +41,8 @@ const SlideCarousel = () => {
             { slides.map((slide, index) => {
                 return (
                 <SlideCarouselItem key={index}>
-                    {slide}
+                    {index === currentSlide && (<SlideGallery {...slide.item} />)}
+                    
                 </SlideCarouselItem>)
             })}
         </SlideCarouselWrapper>
