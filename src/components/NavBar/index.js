@@ -7,7 +7,7 @@ import {
   MobileIcon,
   NavMenu,
   NavItem,
-  NavLinks
+  NavLinks,
 } from './NavbarElements'
 
 const Navbar = () => {
@@ -22,6 +22,12 @@ const Navbar = () => {
           <NavMenu>
             <NavItem>
               <NavLinks to='about'>About</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to='photo'>Photo Gallery</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to='contact'>Contact Us</NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
