@@ -15,7 +15,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to='/'>NavBar</NavLogo>
+          <NavLogo to='/'>Shing Chong Store</NavLogo>
           <MobileIcon>
             <FaBars />
           </MobileIcon>
