@@ -7,10 +7,11 @@ import Footer from '../components/Footer'
 // import StoreGallery from '../components/StoreGallery/StoreGallery'
 import SlideCarousel from '../components/SlideCarousel/SlideCarousel'
 // import SlideGallery from '../components/Slides/SlideGallery'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <>
+    <Router>
         <Navbar />
         <HeroSection />
         {/* <ImageGallery /> */}
@@ -19,7 +20,7 @@ const Home = () => {
         <SlideCarousel />
         {/* <SlideGallery /> */}
         <Footer />
-    </>
+    </Router>
   )
 }
 
