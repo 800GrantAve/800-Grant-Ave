@@ -8,15 +8,15 @@ import {
 export const SlideCarouselContainer = styled.div`
     /* color: #f1f1f1; */
     /* background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')}; */
-    height: 800px;
-    padding-top: 400px;
+    height: 700px;
+    padding-top: 100px;
     background: #f9f9f9;
     /* display: flex;
     flex-wrap: nowrap;
     overflow: hidden; */
 
     @media screen and (max-width: 768px) {
-        /* padding: 100px 0; */
+        padding: 100px 0;
     }
 `
 
@@ -45,6 +45,11 @@ export const ArrowLeft = styled(FaArrowAltCircleLeft)`
     z-index: 10;
     cursor: pointer;
     user-select: none;
+
+    @media screen and (max-width: 768px) {
+        top: 100%;
+        padding-top: 25px;
+    }
 `;
 
 export const ArrowRight = styled(FaArrowAltCircleRight)`
@@ -56,4 +61,9 @@ export const ArrowRight = styled(FaArrowAltCircleRight)`
     z-index: 10;
     cursor: pointer;
     user-select: none;
+
+    @media screen and (max-width: 768px) {
+        padding-top: 25px;
+        top: 100%
+    }
 `;

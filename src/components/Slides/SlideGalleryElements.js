@@ -7,7 +7,7 @@ export const SlideContainer = styled.div`
     width: auto;
 
     @media screen and (max-width: 768px) {
-        /* padding: 100px 0; */
+        padding: 50px 0;
     }
 `
 
@@ -30,7 +30,7 @@ export const SlideRow = styled.div`
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
     @media screen and (max-width: 768px) {
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2 col2'`)};
     }
 `
 
