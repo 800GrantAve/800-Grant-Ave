@@ -8,11 +8,13 @@ import Footer from '../components/Footer'
 import SlideCarousel from '../components/SlideCarousel/SlideCarousel'
 // import SlideGallery from '../components/Slides/SlideGallery'
 import { BrowserRouter as Router } from 'react-router-dom'
+import Sidebar from '../components/Sidebar/Sidebar'
 
 const Home = () => {
   return (
     <Router>
         <Navbar />
+        <Sidebar />
         <HeroSection />
         {/* <ImageGallery /> */}
         {/* <StoreImages /> */}
