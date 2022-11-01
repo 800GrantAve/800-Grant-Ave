@@ -36,7 +36,16 @@ const Navbar = ({ toggle }) => {
               <NavLinks to='about'>About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='photo'>Photo Gallery</NavLinks>
+              <NavLinks 
+                to='photo'
+                smooth={true} 
+                duration={500} 
+                spy={true} 
+                exact='true' 
+                offset={-80}
+              >
+                Photo Gallery
+              </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='contact'>Contact Us</NavLinks>
