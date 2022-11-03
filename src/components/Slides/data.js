@@ -1,5 +1,3 @@
-import { FaHotel } from 'react-icons/fa'
-
 export const slideOne = {
     id: 'part1',
     lightBg: false,
