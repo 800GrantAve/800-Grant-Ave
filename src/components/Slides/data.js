@@ -1,5 +1,5 @@
 export const slide1 = {
-    id: 'part1',
+    id: 'slide1',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -15,7 +15,7 @@ export const slide1 = {
 }
 
 export const slide2 = {
-    id: 'part2',
+    id: 'slide2',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -31,7 +31,7 @@ export const slide2 = {
 }
 
 export const slide3 = {
-    id: 'part2',
+    id: 'slide3',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -47,16 +47,34 @@ export const slide3 = {
 }
 
 export const slide4 = {
-    id: 'part2',
+    id: 'slide4',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Shing Chong Store',
     headline: 'Cable Cars',
-    description: 'Cable car heads down Clay St.',
+    description: 'Cable car travels down Clay St.',
     imgStart: false,
     img: require('../../images/store/claycar.jpg'),
     img2: require('../../images/store/clayst.jpg'),
+    alt: 'Dupont St. (not Grant Ave.)',
+    alt2:'',
+    dark: true,
+    primary: true,
+    darkText: false
+}
+
+export const slide5 = {
+    id: 'slide5',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Shing Chong Store',
+    headline: '800 Dupont St.',
+    description: 'The corner of Dupont and Clay in 1880',
+    imgStart: false,
+    img: require('../../images/store/circa1880.jpg'),
+    img2: require('../../images/store/800dupont.jpeg'),
     alt: 'Dupont St. (not Grant Ave.)',
     alt2:'',
     dark: true,

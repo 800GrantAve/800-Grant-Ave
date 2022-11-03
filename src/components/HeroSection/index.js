@@ -18,9 +18,8 @@ const HeroSection = () => {
             <ImgBg src={Image} />
         </HeroBg>
         <HeroContent>
-            <HeroH1>Shing Chong</HeroH1>
-            <HeroH2>The History of <br /> 800 Grant Avenue, San Francisco</HeroH2>
-            <HeroH2></HeroH2>
+            <HeroH1>The History of Shing Chong Store</HeroH1>
+            <HeroH2>800 Grant Ave, San Francisco</HeroH2>
         </HeroContent>
     </HeroContainer>
   )

@@ -3,7 +3,8 @@ import {
     slide1,
     slide2,
     slide3,
-    slide4
+    slide4,
+    slide5
 } from '../Slides/data'
 import SlideGallery from '../Slides/SlideGallery'
 import {
@@ -27,6 +28,9 @@ const SlideCarousel = () => {
         },
         {
             item: slide4
+        },
+        {
+            item: slide5
         },
 ]
     const [currentSlide, setCurrentSlide] = useState(0)
