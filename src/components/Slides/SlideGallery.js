@@ -23,8 +23,6 @@ const SlideGallery = ({
     darkText, 
     description, 
     img,
-    bioImg,
-    bioAlt, 
     alt, 
     primary, 
     dark, 
