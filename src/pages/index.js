@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import SlideCarousel from '../components/SlideCarousel/SlideCarousel'
 import { BrowserRouter as Router } from 'react-router-dom'
 import Sidebar from '../components/Sidebar/Sidebar'
+import About from '../components/About/About'
 
 const Home = () => {
   const [isOpen, setIsOpen] =  useState()
@@ -23,6 +24,7 @@ const Home = () => {
           isOpen={isOpen}
         />
         <HeroSection />
+        <About />
         <SlideCarousel />
         <Footer />
     </Router>
