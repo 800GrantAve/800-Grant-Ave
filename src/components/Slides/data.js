@@ -1,4 +1,4 @@
-export const slideOne = {
+export const slide1 = {
     id: 'part1',
     lightBg: false,
     lightText: true,
@@ -14,7 +14,7 @@ export const slideOne = {
     darkText: false
 }
 
-export const slideTwo = {
+export const slide2 = {
     id: 'part2',
     lightBg: false,
     lightText: true,
@@ -30,7 +30,7 @@ export const slideTwo = {
     darkText: false
 }
 
-export const slideThree = {
+export const slide3 = {
     id: 'part2',
     lightBg: false,
     lightText: true,
@@ -40,6 +40,23 @@ export const slideThree = {
     description: 'Before April 18, 1906, the corner of Dupont Ave. (now called Grant Ave) and Clay looked very different. A cable car line ran uo and down Clay. The city\'s first hotel, the Portsmouth House, occupied the Northeast corner where the Shing Chong store would eventually be located.',
     imgStart: false,
     img: require('../../images/store/clay_st.jpg'),
+    alt: 'Dupont St. (not Grant Ave.)',
+    dark: true,
+    primary: true,
+    darkText: false
+}
+
+export const slide4 = {
+    id: 'part2',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    // topLine: 'Shing Chong Store',
+    // headline: 'Cable Car',
+    // description: 'Before April 18, 1906, the corner of Dupont Ave. (now called Grant Ave) and Clay looked very different. A cable car line ran uo and down Clay. The city\'s first hotel, the Portsmouth House, occupied the Northeast corner where the Shing Chong store would eventually be located.',
+    imgStart: false,
+    img: require('../../images/store/claycar.jpg'),
+    img2: require('../../images/store/clayst.jpg'),
     alt: 'Dupont St. (not Grant Ave.)',
     dark: true,
     primary: true,

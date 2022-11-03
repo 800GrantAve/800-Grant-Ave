@@ -10,7 +10,8 @@ import {
     Heading,
     Subtitle,
     ImgWrap,
-    Img
+    Img,
+    Img2
 } from './SlideGalleryElements'
 
 const SlideGallery = ({
@@ -23,6 +24,7 @@ const SlideGallery = ({
     darkText, 
     description, 
     img,
+    img2,
     alt, 
     primary, 
     dark, 
