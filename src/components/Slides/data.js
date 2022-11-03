@@ -1,3 +1,5 @@
+import { FaHotel } from 'react-icons/fa'
+
 export const slideOne = {
     id: 'part1',
     lightBg: false,
@@ -36,8 +38,8 @@ export const slideThree = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Shing Chong Store',
-    headline: 'Hello',
-    description: 'According to records, Louie Wee Lee came to America about 1900. He listed himself as the some of a merchant for a store named Boew Kee & Co. He returned to China, marriedand had a son, then returned alone in 1906',
+    headline: 'Grant Ave and Clay St.',
+    description: 'Before April 18, 1906, the corner of Dupont Ave. (now called Grant Ave) and Clay looked very different. A cable car line ran uo and down Clay. The city\'s first hotel, the Portsmouth House, occupied the Northeast corner where the Shing Chong store would eventually be located.',
     imgStart: true,
     img: require('../../images/store/clay_st.jpg'),
     alt: 'Plane',
