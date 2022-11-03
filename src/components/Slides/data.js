@@ -42,7 +42,7 @@ export const slideThree = {
     description: 'Before April 18, 1906, the corner of Dupont Ave. (now called Grant Ave) and Clay looked very different. A cable car line ran uo and down Clay. The city\'s first hotel, the Portsmouth House, occupied the Northeast corner where the Shing Chong store would eventually be located.',
     imgStart: true,
     img: require('../../images/store/clay_st.jpg'),
-    alt: 'Plane',
+    alt: 'Dupont St. (not Grant Ave.)',
     dark: true,
     primary: true,
     darkText: false
