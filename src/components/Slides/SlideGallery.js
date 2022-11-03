@@ -5,6 +5,7 @@ import {
     SlideRow,
     Column1,
     Column2,
+    Column3,
     TextWrapper,
     TopLine,
     Heading,
@@ -25,7 +26,8 @@ const SlideGallery = ({
     description, 
     img,
     img2,
-    alt, 
+    alt,
+    alt2,
     primary, 
     dark, 
     dark2
@@ -49,7 +51,10 @@ const SlideGallery = ({
                     <ImgWrap>
                         <Img src={img} alt={alt} />
                     </ImgWrap>
-                </Column2>
+                </Column2>             
+                <Column3>
+                    <Img2 src={img2} alt={alt2} />
+                </Column3>
             </SlideRow>
         </SlideWrapper>
     </SlideContainer>

@@ -33,12 +33,12 @@ export const SlideWrapper = styled.div`
 
 export const SlideRow = styled.div`
     display: grid;
-    grid-auto-columns: minmax(auto, 1fr);
+    grid-auto-columns: minmax(auto, 1fr 1fr);
     align-items: center;
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+    grid-template-areas: ${({imgStart}) => (imgStart ? `'col3 col2 col1'` : `'col1 col2 col3'`)};
 
     @media screen and (max-width: 768px) {
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2 col3'` : `'col1 col1' 'col2 col2 col3 col3'`)};
     }
 `
 
@@ -51,6 +51,11 @@ export const Column2 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
+`
+export const Column3 = styled.div`
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area: col3;
 `
 
 export const TextWrapper = styled.div`
