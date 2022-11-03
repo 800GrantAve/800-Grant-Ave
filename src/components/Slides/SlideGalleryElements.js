@@ -21,6 +21,14 @@ export const SlideWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        max-width: 600px;
+    }
+
+    @media screen and (max-width: 480px) {
+        max-width: 350px;
+    }
 `
 
 export const SlideRow = styled.div`
@@ -30,7 +38,7 @@ export const SlideRow = styled.div`
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
     @media screen and (max-width: 768px) {
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2 col2'`)};
+        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
     }
 `
 
@@ -49,6 +57,10 @@ export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0px;
     padding-bottom: 60px;
+
+    @media screen and (max-width: 768px) {
+        padding-bottom: 5px;
+    }
 `
 
 export const TopLine = styled.p`
@@ -68,7 +80,7 @@ export const Heading = styled.h1`
     font-weight: 600;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
         font-size: 32px;
     }
 `
@@ -83,6 +95,14 @@ export const Subtitle = styled.p`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+    
+    @media screen and (max-width: 768px) {
+        max-width: 300px;
+    }
+
+    @media screen and (max-width: 480px) {
+        max-width: 275px;
+    }
 `
 export const Img = styled.img`
     width: 100%;

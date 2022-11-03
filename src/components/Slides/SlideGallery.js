@@ -31,9 +31,9 @@ const SlideGallery = ({
     dark2
 }) => {
   return (
-    <SlideContainer>
+    <SlideContainer id={id}>
         <SlideWrapper>
-            <SlideRow>
+            <SlideRow imgStart={imgStart}>
                 <Column1>
                     <TextWrapper>
                         <TopLine>{topLine}</TopLine>

@@ -6,7 +6,7 @@ export const slideOne = {
     topLine: 'Shing Chong Store',
     headline: 'The History of 800 Grant Ave.',
     description: 'According to records, Louie Wee Lee came to America about 1900. He listed himself as the some of a merchant for a store named Boew Kee & Co. He returned to China, marriedand had a son, then returned alone in 1906',
-    imgStart: true,
+    imgStart: false,
     img: require('../../images/store/sign1.jpg'),
     alt: 'Plane',
     dark: true,
