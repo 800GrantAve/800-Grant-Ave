@@ -38,7 +38,7 @@ export const SlideRow = styled.div`
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col3 col2 col1'` : `'col1 col2 col3'`)};
 
     @media screen and (max-width: 768px) {
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2 col3'` : `'col1 col1' 'col2 col2 col3 col3'`)};
+        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2' 'col3'` : `'col1 col1' 'col2 col2' 'col3 col3'`)};
     }
 `
 
@@ -91,33 +91,34 @@ export const Heading = styled.h1`
 `
 export const Subtitle = styled.p`
     max-width: 440px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     font-size: 18px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 500px;
     height: 100%;
+    /* border: 1px solid red; */
     
     @media screen and (max-width: 768px) {
-        max-width: 300px;
+        max-width: 200px;
     }
 
     @media screen and (max-width: 480px) {
-        max-width: 275px;
+        max-width: 180px;
     }
 `
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    padding-right: 0;
+    /* padding-right: 0; */
     border-radius: 10px;
 `
 export const Img2 = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    padding-left: 0;
+    /* padding-left: 0; */
     border-radius: 10px;
 `

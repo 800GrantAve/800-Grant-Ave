@@ -53,7 +53,9 @@ const SlideGallery = ({
                     </ImgWrap>
                 </Column2>             
                 <Column3>
-                    <Img2 src={img2} alt={alt2} />
+                    <ImgWrap>
+                        <Img2 src={img2} alt={alt2} />
+                    </ImgWrap>
                 </Column3>
             </SlideRow>
         </SlideWrapper>
