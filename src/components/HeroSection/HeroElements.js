@@ -53,7 +53,7 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    bottom: 260px;
+    bottom: 180px;
 `;
 
 export const HeroH1 = styled.h1`
