@@ -7,7 +7,7 @@ import {
     HeroH1,
     HeroH2
 } from './HeroElements'
-import Image from '../../images/asianimage5.jpg'
+import Image from '../../images/clay_and_grant3.jpg'
 
 
 const HeroSection = () => {
