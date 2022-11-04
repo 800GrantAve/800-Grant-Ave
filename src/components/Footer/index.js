@@ -6,7 +6,7 @@ import {
     FooterLinksWrapper, 
     FooterLinkItems, 
     FooterLinkTitle, 
-    // FooterLink,
+    FooterLink
     // SocialMedia,
     // SocialMediaWrap,
     // SocialLogo,
@@ -26,7 +26,7 @@ const Footer = () => {
             <FooterLinksWrapper>
                 <FooterLinkItems>
                     <FooterLinkTitle>About Us</FooterLinkTitle>
-                    <FooterLinkTitle>Contact Us</FooterLinkTitle>
+                    <FooterLink href="mailto:info@800grantave.com">Contact Us</FooterLink>
                 </FooterLinkItems>
             </FooterLinksWrapper>
         </FooterLinksContainer>

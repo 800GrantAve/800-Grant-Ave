@@ -7,7 +7,7 @@ import {
     HeroH1,
     HeroH2
 } from './HeroElements'
-import Image from '../../images/chinatown1.jpg'
+import Image from '../../images/asianimage5.jpg'
 
 
 const HeroSection = () => {
@@ -18,8 +18,7 @@ const HeroSection = () => {
             <ImgBg src={Image} />
         </HeroBg>
         <HeroContent>
-            <HeroH1>The History of Shing Chong Store</HeroH1>
-            <HeroH2>800 Grant Ave, San Francisco</HeroH2>
+            <HeroH1>Learn More About < br/> 800 Grant Avenue, San Francisco</HeroH1>
         </HeroContent>
     </HeroContainer>
   )
