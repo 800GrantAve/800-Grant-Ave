@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
                 duration={500} 
                 spy={true} 
                 exact='true' 
-                offset={-80}
+                offset={-20}
               >
                 About
               </NavLinks>
@@ -51,7 +51,7 @@ const Navbar = ({ toggle }) => {
                 duration={500} 
                 spy={true} 
                 exact='true' 
-                offset={-80}
+                offset={-20}
               >
                 Photo Gallery
               </NavLinks>
@@ -63,7 +63,7 @@ const Navbar = ({ toggle }) => {
                duration={500} 
                spy={true} 
                exact='true' 
-               offset={-80}
+               offset={-20}
               >
                 Contact Us
               </NavLinks>

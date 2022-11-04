@@ -27,7 +27,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarLink to='photo' onClick={toggle}>
                     Photo Gallery
                 </SidebarLink>
-                <SidebarLink to='contact' onClick={toggle}>
+                <SidebarLink to='footer' onClick={toggle}>
                     Contact Us
                 </SidebarLink>
             </SidebarMenu>
