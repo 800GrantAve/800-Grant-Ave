@@ -16,7 +16,7 @@ import Image from '../../images/store/about.jpg'
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id='about'>
         <AboutWrapper>
             <AboutRow>
                 <Column1>

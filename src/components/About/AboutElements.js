@@ -16,7 +16,7 @@ export const AboutWrapper = styled.div`
     z-index: 1;
     height: 800px;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
@@ -36,6 +36,7 @@ export const AboutRow = styled.div`
     grid-auto-columns: minmax(auto, 1fr 1fr);
     align-items: center;
     grid-template-areas: 'col2 col1';
+    grid-template-columns: 450px auto;
 
     @media screen and (max-width: 768px) {
         grid-template-areas: 'col1 col1' 'col2 col2';
@@ -52,11 +53,6 @@ export const Column2 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
-`
-export const Column3 = styled.div`
-    margin-bottom: 15px;
-    padding: 0 15px;
-    grid-area: col3;
 `
 
 export const TextWrapper = styled.div`

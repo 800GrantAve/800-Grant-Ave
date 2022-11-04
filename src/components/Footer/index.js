@@ -20,14 +20,13 @@ import {
 
 const Footer = () => {
   return (
-    <FooterContainer>
+    <FooterContainer id='footer'>
     <FooterWrap>
         <FooterLinksContainer>
             <FooterLinksWrapper>
                 <FooterLinkItems>
                     <FooterLinkTitle>About Us</FooterLinkTitle>
                     <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                    <FooterLinkTitle>Affiliates</FooterLinkTitle>
                 </FooterLinkItems>
             </FooterLinksWrapper>
         </FooterLinksContainer>
