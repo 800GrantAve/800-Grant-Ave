@@ -19,7 +19,7 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
             <HeroH1>Learn About < br/> 800 Grant Avenue, <br /> San Francisco</HeroH1>
-            <HeroH2>The History of <br /> Shing Chong & Co. <br /> and the corner <br /> Grant Ave & Clay St</HeroH2>
+            <HeroH2>The History of <br /> Shing Chong & Co. <br /> and the corner of <br /> Grant Ave & Clay St</HeroH2>
         </HeroContent>
     </HeroContainer>
   )
