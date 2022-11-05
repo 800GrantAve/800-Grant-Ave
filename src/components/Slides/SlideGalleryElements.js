@@ -21,6 +21,7 @@ export const SlideWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+    /* border: 5px solid blue; */
 
     @media screen and (max-width: 768px) {
         max-width: 600px;
@@ -43,16 +44,27 @@ export const SlideRow = styled.div`
 `
 
 export const Column1 = styled.div`
+    display: flex;
+    justify-content: center;
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
+    /* width: 300px; */
+    /* border: 5px solid red; */
 `
 export const Column2 = styled.div`
+    display: flex;
+    justify-content: center;
     margin-bottom: 15px;
-    padding: 0 15px;
+    padding: 0 5px;
     grid-area: col2;
+    /* width: 400px; */
+    /* border: 5px solid green; */
+
 `
 export const Column3 = styled.div`
+    display: flex;
+    justify-content: center;
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col3;
@@ -98,7 +110,7 @@ export const Subtitle = styled.p`
 `
 
 export const ImgWrap = styled.div`
-    max-width: 500px;
+    width: 500px;
     height: 100%;
     /* border: 1px solid red; */
     

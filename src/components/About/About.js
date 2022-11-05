@@ -30,7 +30,7 @@ const About = () => {
                 </Column1>
                 <Column2>
                     <ImgWrap>
-                        <Img src={Image} alt='student' />
+                        <Img src={Image} alt='Louie Wee Lee' />
                     </ImgWrap>                
                 </Column2>
             </AboutRow>

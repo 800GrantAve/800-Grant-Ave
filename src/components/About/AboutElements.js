@@ -14,19 +14,19 @@ export const AboutWrapper = styled.div`
     display: grid;
     z-index: 1;
     height: 800px;
-    width: 100%;
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
+    /* width: 100%; */
+    /* max-width: 1200px; */
+    /* margin-right: auto;
+    margin-left: auto; */
     padding: 0 24px;
     justify-content: center;
 
     @media screen and (max-width: 768px) {
-        max-width: 600px;
+        /* max-width: 600px; */
     }
 
     @media screen and (max-width: 480px) {
-        max-width: 350px;
+        /* max-width: 350px; */
     }
 `
 
@@ -44,14 +44,18 @@ export const AboutRow = styled.div`
 
 export const Column1 = styled.div`
     margin-bottom: 15px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     grid-area: col1;
     padding-left: 60px;
+    /* border: 5px solid blue; */
 `
 export const Column2 = styled.div`
+    display: flex;
+    justify-content: center;
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
+    /* border: 5px solid red; */
 `
 
 export const TextWrapper = styled.div`
@@ -97,10 +101,10 @@ export const Subtitle = styled.p`
 export const ImgWrap = styled.div`
     max-width: 500px;
     height: 100%;
-    /* border: 1px solid red; */
+    /* border: 5px solid green; */
     
     @media screen and (max-width: 768px) {
-        max-width: 200px;
+        width: 300px;
     }
 
     @media screen and (max-width: 480px) {
