@@ -44,8 +44,8 @@ export const SlideRow = styled.div`
 `
 
 export const Column1 = styled.div`
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
@@ -53,8 +53,8 @@ export const Column1 = styled.div`
     /* border: 5px solid red; */
 `
 export const Column2 = styled.div`
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     margin-bottom: 15px;
     padding: 0 5px;
     grid-area: col2;
@@ -63,8 +63,8 @@ export const Column2 = styled.div`
 
 `
 export const Column3 = styled.div`
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col3;
