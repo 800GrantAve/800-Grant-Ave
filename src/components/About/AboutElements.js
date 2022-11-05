@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const AboutContainer = styled.div`
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
-    border-radius: 15px;
-    width: auto;
+    /* width: auto; */
 
     @media screen and (max-width: 768px) {
         padding: 50px 0;
@@ -39,7 +38,7 @@ export const AboutRow = styled.div`
     grid-template-columns: 450px auto;
 
     @media screen and (max-width: 768px) {
-        grid-template-areas: 'col1 col1' 'col2 col2';
+        grid-template-areas: 'col1' 'col2';
     }
 `
 
