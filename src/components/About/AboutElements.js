@@ -6,7 +6,7 @@ export const AboutContainer = styled.div`
     /* width: auto; */
 
     @media screen and (max-width: 768px) {
-        padding: 50px 0;
+        padding: 60px 0;
     }
 `
 
@@ -20,6 +20,7 @@ export const AboutWrapper = styled.div`
     margin-left: auto; */
     padding: 0 24px;
     justify-content: center;
+    /* border: 5px solid red; */
 
     @media screen and (max-width: 768px) {
         /* max-width: 600px; */
@@ -39,6 +40,7 @@ export const AboutRow = styled.div`
 
     @media screen and (max-width: 768px) {
         grid-template-areas: 'col1' 'col2';
+        grid-template-row: 250px auto;
     }
 `
 
@@ -65,7 +67,7 @@ export const TextWrapper = styled.div`
     padding-right: 60px;
 
     @media screen and (max-width: 768px) {
-        padding-bottom: 5px;
+        padding-bottom: 0;
     }
 `
 
@@ -77,6 +79,10 @@ export const TopLine = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 14px;
+    }
 `
 
 export const Heading = styled.h1`
@@ -87,7 +93,8 @@ export const Heading = styled.h1`
     color:'#f7f8fa';
 
     @media screen and (max-width: 768px) {
-        font-size: 32px;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 `
 export const Subtitle = styled.p`
@@ -96,6 +103,10 @@ export const Subtitle = styled.p`
     font-size: 18px;
     line-height: 24px;
     color: '#f7f8fa';
+
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
 `
 
 export const ImgWrap = styled.div`
