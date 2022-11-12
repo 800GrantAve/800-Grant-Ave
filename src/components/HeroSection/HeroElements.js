@@ -38,9 +38,10 @@ export const HeroBg = styled.div`
 export const ImgBg = styled.img`
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    background: #232a34;
+    
+    @media screen and (max-width: 768px) {
+        object-fit: scale-down;
+    }
 `;
 
 export const HeroContent = styled.div`
@@ -54,6 +55,10 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        bottom: 0px;
+    }
 `;
 
 export const HeroH1 = styled.h1`
