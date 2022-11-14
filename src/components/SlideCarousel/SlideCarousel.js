@@ -8,6 +8,8 @@ import {
     ArrowLeft,
     ArrowRight
 } from './SlideCarouselElements'
+// import {Swiper, SwiperSlide} from 'swiper/react'
+// import 'swiper/swiper-bundle.css'
 
 const SlideCarousel = () => {
 
@@ -16,7 +18,6 @@ const SlideCarousel = () => {
 
     const nextSlide = () => {
         setCurrentSlide(currentSlide === length - 1 ? 0 : currentSlide + 1)
-        console.log(currentSlide)
     }
 
     const prevSlide = () => {
@@ -25,19 +26,17 @@ const SlideCarousel = () => {
 
   return (
     <SlideCarouselContainer id='photo'>
-        <SlideCarouselWrapper>
-        <ArrowLeft onClick={prevSlide} />
-        <ArrowRight onClick={nextSlide} />
-            
-            { SlideData.map((slide, index) => {
-                console.log(slide)
-                return (
-                <SlideCarouselItem key={index}>
-                    {index === currentSlide && (<SlideGallery {...slide} />)}
-                    
-                </SlideCarouselItem>)
-            })}
-        </SlideCarouselWrapper>
+            <SlideCarouselWrapper>
+            <ArrowLeft onClick={prevSlide} />
+            <ArrowRight onClick={nextSlide} />
+                    { SlideData.map((slide, index) => {
+                        return (
+                            <SlideCarouselItem key={index}>
+                                {index === currentSlide && (<SlideGallery {...slide} />)}
+                            </SlideCarouselItem>
+                        )
+                    })}
+            </SlideCarouselWrapper>
     </SlideCarouselContainer>
   )
 }
