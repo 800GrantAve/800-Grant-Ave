@@ -29,6 +29,7 @@ export const SlideWrapper = styled.div`
 
     @media screen and (max-width: 480px) {
         max-width: 350px;
+        
     }
 `
 
@@ -115,11 +116,11 @@ export const ImgWrap = styled.div`
     /* border: 1px solid red; */
     
     @media screen and (max-width: 768px) {
-        max-width: 200px;
+        max-width: 300px;
     }
 
     @media screen and (max-width: 480px) {
-        max-width: 180px;
+        max-width: 190px;
     }
 `
 export const Img = styled.img`
