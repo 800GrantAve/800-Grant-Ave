@@ -56,7 +56,11 @@ export const HeroContent = styled.div`
     flex-direction: column;
     align-items: center;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
+        bottom: 0px;
+    }
+
+    @media screen and (max-width: 480px) {
         bottom: 0px;
     }
 `;
