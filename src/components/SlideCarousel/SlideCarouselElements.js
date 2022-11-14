@@ -3,10 +3,10 @@ import {
     FaArrowAltCircleRight,
     FaArrowAltCircleLeft
 } from 'react-icons/fa'
-import {
-    SlArrowLeft,
-    SlArrowRight
-} from 'react-icons/sl'
+// import {
+//     SlArrowLeft,
+//     SlArrowRight
+// } from 'react-icons/sl'
 
 
 export const SlideCarouselContainer = styled.div`
