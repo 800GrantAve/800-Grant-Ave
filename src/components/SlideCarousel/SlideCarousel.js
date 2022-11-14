@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
-import {
-    slide1,
-    slide2,
-    slide3,
-    slide4,
-    slide5
-} from '../Slides/data'
+import {SlideData} from '../Slides/data'
+// import {
+//     slide1,
+//     slide2,
+//     slide3,
+//     slide4,
+//     slide5
+// } from '../Slides/data'
 import SlideGallery from '../Slides/SlideGallery'
 import {
     SlideCarouselContainer,
@@ -16,25 +17,25 @@ import {
 } from './SlideCarouselElements'
 
 const SlideCarousel = () => {
-    const slides = [
-        {
-            item: slide1
-        },
-        {
-            item: slide2
-        },
-        {
-            item: slide3
-        },
-        {
-            item: slide4
-        },
-        {
-            item: slide5
-        },
-]
+//     const slides = [
+//         {
+//             item: slide1
+//         },
+//         {
+//             item: slide2
+//         },
+//         {
+//             item: slide3
+//         },
+//         {
+//             item: slide4
+//         },
+//         {
+//             item: slide5
+//         },
+// ]
     const [currentSlide, setCurrentSlide] = useState(0)
-    const length = slides.length
+    const length = SlideData.length
 
     const nextSlide = () => {
         setCurrentSlide(currentSlide === length - 1 ? 0 : currentSlide + 1)
@@ -50,10 +51,12 @@ const SlideCarousel = () => {
         <SlideCarouselWrapper>
         <ArrowLeft onClick={prevSlide} />
         <ArrowRight onClick={nextSlide} />
-            { slides.map((slide, index) => {
+            
+            { SlideData.map((slide, index) => {
+                console.log(slide)
                 return (
                 <SlideCarouselItem key={index}>
-                    {index === currentSlide && (<SlideGallery {...slide.item} />)}
+                    {index === currentSlide && (<SlideGallery {...slide} />)}
                     
                 </SlideCarouselItem>)
             })}
