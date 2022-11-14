@@ -1,12 +1,5 @@
 import React, { useState } from 'react'
 import {SlideData} from '../Slides/data'
-// import {
-//     slide1,
-//     slide2,
-//     slide3,
-//     slide4,
-//     slide5
-// } from '../Slides/data'
 import SlideGallery from '../Slides/SlideGallery'
 import {
     SlideCarouselContainer,
@@ -17,23 +10,7 @@ import {
 } from './SlideCarouselElements'
 
 const SlideCarousel = () => {
-//     const slides = [
-//         {
-//             item: slide1
-//         },
-//         {
-//             item: slide2
-//         },
-//         {
-//             item: slide3
-//         },
-//         {
-//             item: slide4
-//         },
-//         {
-//             item: slide5
-//         },
-// ]
+
     const [currentSlide, setCurrentSlide] = useState(0)
     const length = SlideData.length
 
