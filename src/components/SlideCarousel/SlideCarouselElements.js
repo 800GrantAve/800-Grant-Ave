@@ -1,8 +1,8 @@
 import styled from "styled-components";
-// import {
-//     FaArrowAltCircleRight,
-//     FaArrowAltCircleLeft
-// } from 'react-icons/fa'
+import {
+    FaArrowAltCircleRight,
+    FaArrowAltCircleLeft
+} from 'react-icons/fa'
 import {
     SlArrowLeft,
     SlArrowRight
@@ -40,7 +40,7 @@ export const SlideCarouselItem = styled.div`
     justify-content: center;
     transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1); */
 `
-export const ArrowLeft = styled(SlArrowLeft)`
+export const ArrowLeft = styled(FaArrowAltCircleLeft)`
     position: absolute;
     top: 50%;
     left: 32px;
@@ -56,7 +56,7 @@ export const ArrowLeft = styled(SlArrowLeft)`
     }
 `;
 
-export const ArrowRight = styled(SlArrowRight)`
+export const ArrowRight = styled(FaArrowAltCircleRight)`
     position: absolute;
     top: 50%;
     right: 32px;
