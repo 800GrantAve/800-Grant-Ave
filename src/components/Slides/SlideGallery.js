@@ -16,9 +16,7 @@ import {
 } from './SlideGalleryElements'
 
 const SlideGallery = ({
-    lightBg, 
     id, 
-    imgStart, 
     topLine, 
     lightText, 
     headline, 
@@ -35,7 +33,7 @@ const SlideGallery = ({
   return (
     <SlideContainer id={id}>
         <SlideWrapper>
-            <SlideRow imgStart={imgStart}>
+            <SlideRow>
                 <Column1>
                     <TextWrapper>
                         <TopLine>{topLine}</TopLine>

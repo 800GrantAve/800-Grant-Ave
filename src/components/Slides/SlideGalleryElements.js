@@ -42,7 +42,7 @@ export const SlideRow = styled.div`
     grid-template-areas: 'col1 col2 col3';
 
     @media screen and (max-width: 768px) {
-        grid-template-areas: 'col1 col1' 'col2 col2' 'col3 col3';
+        grid-template-areas: 'col1' 'col2' 'col3';
     }
 `
 

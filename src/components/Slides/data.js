@@ -7,7 +7,6 @@ export const SlideData =
     topLine: 'Shing Chong & Co.',
     headline: 'The History of 800 Grant Ave.',
     description: 'According to records, Louie Wee Lee came to America about 1900. He listed himself as the son of a merchant for a store named Boew Kee & Co. He returned to China, married and had a son, then returned alone in 1906',
-    imgStart: false,
     img: require('../../images/store/sign1.jpg'),
     alt: 'Shing Chong & Co. Sign',
     dark: true,
@@ -22,7 +21,7 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         headline: 'Louie Wee Lee',
         description: 'According to records, Louie Wee Lee came to America about 1900. He listed himself as the son of a merchant for a store named Boew Kee & Co. He returned to China, married and had a son, then returned alone in 1906',
-        imgStart: false,
+
         img: require('../../images/store/louie.jpg'),
         alt: 'Plane',
         dark: true,
@@ -37,7 +36,7 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         headline: 'Grant Ave. and Clay St.',
         description: 'Before April 18, 1906, the corner of Dupont Ave. (now called Grant Ave) and Clay looked very different. A cable car line ran uo and down Clay. The city\'s first hotel, the Portsmouth House, occupied the Northeast corner where the Shing Chong store would eventually be located.',
-        imgStart: false,
+
         img: require('../../images/store/clay_st.jpg'),
         alt: 'Dupont St. (not Grant Ave.)',
         dark: true,
@@ -52,7 +51,7 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         headline: 'Cable Cars',
         description: 'A cable car travels down Clay St. in front of Portsmouth Square',
-        imgStart: false,
+
         img: require('../../images/store/claycar.jpg'),
         img2: require('../../images/store/clayst.jpg'),
         alt: 'Dupont St. (not Grant Ave.)',
@@ -68,7 +67,7 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         // headline: '800 Dupont St.',
         description: 'The corner of Dupont and Clay in 1880.',
-        imgStart: false,
+
         img: require('../../images/store/circa1880.jpg'),
         img2: require('../../images/store/800Dupont2.jpg'),
         alt: 'Dupont St. (not Grant Ave.)',
@@ -84,7 +83,7 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         // headline: '800 Dupont St.',
         description: 'Louie Wee Lee returned to San Francisco on October 9, 1906.',
-        imgStart: false,
+
         img: require('../../images/store/SS-Mongolia.jpg'),
         // img2: require('../../images/store/800Dupont2.jpg'),
         alt: 'SS Mongolia',
@@ -100,7 +99,7 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         // headline: '800 Dupont St.',
         description: 'When he returned the store site at 800 Dupont (Grant) Ave looked like this.',
-        imgStart: false,
+
         img: require('../../images/store/clay_grant.jpg'),
         alt: 'SS Mongolia',
         alt2:'',
@@ -115,7 +114,7 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         // headline: '800 Dupont St.',
         description: 'Five years later he started Shing Chong & Co.',
-        imgStart: false,
+
         img: require('../../images/store/5years.jpg'),
         alt: 'SS Mongolia',
         alt2:'',
@@ -130,7 +129,7 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         // headline: '800 Dupont St.',
         description: '"Louie was an industrious and frugal man, stern and foreceful, but under that outer skin was a man who was respected and greeted as a good merchandiser with an innovative mind...Orders came from far and near as his promt respinse and fair dealing to friend and stranger alike became known" - Thomas Chinn',
-        imgStart: false,
+
         img: require('../../images/store/LouieFrugal.jpg'),
         alt: 'SS Mongolia',
         alt2:'',
@@ -145,7 +144,7 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         // headline: '800 Dupont St.',
         description: '"He was one of the dirst to experiment with Chinese delicatessen food. While such staples as roast duck and chicken, roast pig and cha siu were popular as early as the 1850\'s. Louie had his help start making his own Chinese sausage (lop cheung) and "bok shuey jee gek: (loosely translated as "white water pig\'s feet" - Thomas Chinn',
-        imgStart: false,
+
         img: require('../../images/store/food.JPG'),
         alt: 'SS Mongolia',
         alt2:'',
