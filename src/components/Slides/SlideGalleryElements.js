@@ -5,6 +5,7 @@ export const SlideContainer = styled.div`
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
     border-radius: 15px;
     width: auto;
+    height: 75vh;
 
     @media screen and (max-width: 768px) {
         padding: 50px 0;
