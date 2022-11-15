@@ -24,11 +24,13 @@ export const SlideWrapper = styled.div`
     /* border: 5px solid blue; */
 
     @media screen and (max-width: 768px) {
-        max-width: 600px;
+        max-width: 500px;
+        padding: 24px;
     }
 
     @media screen and (max-width: 480px) {
         max-width: 350px;
+        padding: 24px;
         
     }
 `
