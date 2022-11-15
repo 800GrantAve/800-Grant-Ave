@@ -2,7 +2,6 @@ export const SlideData =
 [
     {
     id: 'slide1',
-    lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Shing Chong & Co.',
@@ -18,13 +17,12 @@ export const SlideData =
 
     {
         id: 'slide2',
-        lightBg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
         headline: 'Louie Wee Lee',
         description: 'According to records, Louie Wee Lee came to America about 1900. He listed himself as the son of a merchant for a store named Boew Kee & Co. He returned to China, married and had a son, then returned alone in 1906',
-        imgStart: true,
+        imgStart: false,
         img: require('../../images/store/louie.jpg'),
         alt: 'Plane',
         dark: true,
@@ -34,7 +32,6 @@ export const SlideData =
 
     {
         id: 'slide3',
-        lightBg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -50,7 +47,6 @@ export const SlideData =
 
     {
         id: 'slide4',
-        lightBg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -67,7 +63,6 @@ export const SlideData =
     },
     {
         id: 'slide5',
-        lightBg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -84,7 +79,6 @@ export const SlideData =
     },
     {
         id: 'slide6',
-        lightBg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -101,7 +95,6 @@ export const SlideData =
     },
     {
         id: 'slide7',
-        lightBg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -117,7 +110,6 @@ export const SlideData =
     },
     {
         id: 'slide8',
-        lightBg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -133,7 +125,6 @@ export const SlideData =
     },
     {
         id: 'slide9',
-        lightBg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -149,7 +140,6 @@ export const SlideData =
     },
     {
         id: 'slide10',
-        lightBg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
