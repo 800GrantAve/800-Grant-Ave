@@ -42,7 +42,7 @@ export const SlideRow = styled.div`
     grid-template-areas: 'col1 col2 col3';
 
     @media screen and (max-width: 768px) {
-        grid-template-areas: 'col1' 'col2' 'col3';
+        grid-template-areas: 'col1 col1' 'col2 col3';
     }
 `
 
@@ -126,24 +126,23 @@ export const ImgWrap = styled.div`
 
     
     @media screen and (max-width: 768px) {
-        max-width: 300px;
+        max-width: 200px;
+        height: 100%;
+        /* border: 5px solid red; */
     }
-
-    /* @media screen and (max-width: 480px) {
-        max-width: 300px;
-    } */
 `
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    object-fit: cover;
+    object-fit: contain;
     /* padding-right: 0; */
     border-radius: 10px;
 `
 export const Img2 = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    
+    object-fit: contain;
     /* padding-left: 0; */
     border-radius: 10px;
+
 `
