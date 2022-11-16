@@ -18,7 +18,7 @@ export const SlideWrapper = styled.div`
     display: grid;
     z-index: 1;
     height: 650px;
-    width: 100%;
+    /* width: 100%; */
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
@@ -27,10 +27,8 @@ export const SlideWrapper = styled.div`
     /* border: 5px solid blue; */
 
     @media screen and (max-width: 768px) {
-        height: 590px;
-        max-width: 450px;
-        padding: 0 5px;
-        /* padding: 30px; */
+        /* height: 590px; */
+        padding: 0 2px;
     }
 
     /* @media screen and (max-width: 480px) {
@@ -90,7 +88,7 @@ export const TextWrapper = styled.div`
     padding-bottom: 60px;
 
     @media screen and (max-width: 768px) {
-        padding-bottom: 5px;
+        padding: 5px 30px;
     }
 `
 

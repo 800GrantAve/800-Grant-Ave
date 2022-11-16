@@ -9,10 +9,6 @@ export const SlideCarouselContainer = styled.div`
     padding-top: 100px;
     background: #f9f9f9;
     /* border: 5px solid blue; */
-
-    @media screen and (max-width: 768px) {
-        padding: 100px 0;
-    }
 `
 
 export const SlideCarouselWrapper = styled.div`
@@ -48,7 +44,7 @@ export const ArrowLeft = styled(FaArrowAltCircleLeft)`
 
     @media screen and (max-width: 768px) {
         top: 100%;
-        padding-top: 50px;
+        padding-top: 80px;
     }
 `;
 
@@ -63,7 +59,7 @@ export const ArrowRight = styled(FaArrowAltCircleRight)`
     user-select: none;
 
     @media screen and (max-width: 768px) {
-        padding-top: 50px;
+        padding-top: 80px;
         top: 100%
     }
 `;
