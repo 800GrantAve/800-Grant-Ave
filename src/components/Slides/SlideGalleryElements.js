@@ -4,12 +4,12 @@ export const SlideContainer = styled.div`
     color: #fff;
     background: #010606;
     border-radius: 15px;
-    height: auto;
+    /* height: auto; */
     /* max-width: 100%; */
     /* border: 5px solid green; */
 
     @media screen and (max-width: 768px) {
-        padding: 20px 0;
+        padding: 50px 0;
         height: 100%;
     }
 `
@@ -27,13 +27,13 @@ export const SlideWrapper = styled.div`
     /* border: 5px solid blue; */
 
     @media screen and (max-width: 768px) {
-        max-width: 400px;
+        max-width: 500px;
         padding: 0 5px;
         /* padding: 30px; */
     }
 
     @media screen and (max-width: 480px) {
-        max-width: 350px;
+        max-width: 450px;
         padding: 0 5px;
         
     }
