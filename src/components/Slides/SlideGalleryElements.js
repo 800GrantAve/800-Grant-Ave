@@ -43,6 +43,7 @@ export const SlideRow = styled.div`
 
     @media screen and (max-width: 768px) {
         grid-template-areas: 'col1 col1' 'col2 col3';
+        grid-template-areas: ${({addImg}) => (addImg ? `'col1 col1' 'col2 col3'` : `'col1' 'col2' 'col3'` )}
     }
 `
 

@@ -2,6 +2,7 @@ export const SlideData =
 [
     {
     id: 'slide1',
+    addImg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Shing Chong & Co.',
@@ -16,6 +17,7 @@ export const SlideData =
 
     {
         id: 'slide2',
+        addImg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -31,6 +33,7 @@ export const SlideData =
 
     {
         id: 'slide3',
+        addImg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -46,6 +49,7 @@ export const SlideData =
 
     {
         id: 'slide4',
+        addImg: true,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -62,6 +66,7 @@ export const SlideData =
     },
     {
         id: 'slide5',
+        addImg: true,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -78,6 +83,7 @@ export const SlideData =
     },
     {
         id: 'slide6',
+        addImg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -94,6 +100,7 @@ export const SlideData =
     },
     {
         id: 'slide7',
+        addImg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -109,6 +116,7 @@ export const SlideData =
     },
     {
         id: 'slide8',
+        addImg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -124,6 +132,7 @@ export const SlideData =
     },
     {
         id: 'slide9',
+        addImg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
@@ -139,6 +148,7 @@ export const SlideData =
     },
     {
         id: 'slide10',
+        addImg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'Shing Chong Store',
