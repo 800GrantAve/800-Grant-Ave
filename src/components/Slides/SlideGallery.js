@@ -16,7 +16,7 @@ import {
 } from './SlideGalleryElements'
 
 const SlideGallery = ({
-    id,
+    // id,
     addImg, 
     topLine, 
     lightText, 
@@ -32,7 +32,7 @@ const SlideGallery = ({
     dark2
 }) => {
   return (
-    <SlideContainer id={id}>
+    <SlideContainer id='photo'>
         <SlideWrapper>
             <SlideRow addImg={addImg}>
                 <Column1>

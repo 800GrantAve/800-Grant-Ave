@@ -25,7 +25,7 @@ const SlideCarousel = () => {
     }
 
   return (
-    <SlideCarouselContainer id='photo'>
+    <SlideCarouselContainer>
             <SlideCarouselWrapper>
             <ArrowLeft onClick={prevSlide} />
             <ArrowRight onClick={nextSlide} />
