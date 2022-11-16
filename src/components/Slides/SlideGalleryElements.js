@@ -8,7 +8,7 @@ export const SlideContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         padding: 50px 0;
-        height: 600px;
+        height: 650px;
     }
 `
 
