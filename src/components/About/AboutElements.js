@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+    background: #010606;
     /* width: auto; */
 
     @media screen and (max-width: 768px) {
@@ -13,14 +13,13 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 800px;
+    height: 860px;
     /* width: 100%; */
-    /* max-width: 1200px; */
-    /* margin-right: auto;
-    margin-left: auto; */
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 0 24px;
     justify-content: center;
-    /* border: 5px solid red; */
 
     @media screen and (max-width: 768px) {
         /* max-width: 600px; */
@@ -33,14 +32,17 @@ export const AboutWrapper = styled.div`
 
 export const AboutRow = styled.div`
     display: grid;
-    grid-auto-columns: minmax(auto, 1fr 1fr);
+    grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: 'col2 col1';
     grid-template-columns: 450px auto;
 
     @media screen and (max-width: 768px) {
         grid-template-areas: 'col1' 'col2';
-        grid-template-row: 250px auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        grid-template-areas: 'col1' 'col2';
     }
 `
 
@@ -113,24 +115,15 @@ export const ImgWrap = styled.div`
     max-width: 500px;
     height: 100%;
     /* border: 5px solid green; */
-    
-    @media screen and (max-width: 768px) {
-        width: 300px;
-    }
-
-    @media screen and (max-width: 480px) {
-        max-width: 180px;
-    }
 `
 export const Img = styled.img`
     width: 100%;
+    /* height: 300px; */
     margin: 0 0 10px 0;
-    /* padding-right: 0; */
     border-radius: 10px;
-`
-export const Img2 = styled.img`
-    width: 100%;
-    margin: 0 0 10px 0;
-    /* padding-left: 0; */
-    border-radius: 10px;
+
+    @media screen and (max-width: 768px) {
+        height: 300px;
+        width: 250px;
+    }
 `

@@ -50,7 +50,7 @@ export const Column1 = styled.div`
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
-    padding: 0 15px;
+    padding: 0 10px;
     grid-area: col1;
     /* width: 300px; */
     /* border: 5px solid red; */
@@ -59,22 +59,22 @@ export const Column2 = styled.div`
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
-    padding: 0 5px;
+    padding: 0 10px;
     grid-area: col2;
     /* width: 400px; */
     /* border: 5px solid green; */
     /* flex: 100%; */
-    max-width: 100%;
+    /* max-width: 100%; */
 
 `
 export const Column3 = styled.div`
     display: flex;
     justify-content: center;
     /* flex: 100%; */
-    max-width: 100%;
+    /* max-width: 100%; */
 
     margin-bottom: 15px;
-    padding: 0 15px;
+    padding: 0 10px;
     grid-area: col3;
 `
 
@@ -118,20 +118,20 @@ export const Subtitle = styled.p`
 `
 
 export const ImgWrap = styled.div`
-    /* width: 500px; */
-    /* height: 100%; */
+    max-width: 550px;
+    height: 100%;
     /* border: 1px solid red; */
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
 
     
     @media screen and (max-width: 768px) {
-        max-width: 80%;
+        max-width: 300px;
     }
 
-    @media screen and (max-width: 480px) {
-        max-width: 80%;
-    }
+    /* @media screen and (max-width: 480px) {
+        max-width: 300px;
+    } */
 `
 export const Img = styled.img`
     width: 100%;
