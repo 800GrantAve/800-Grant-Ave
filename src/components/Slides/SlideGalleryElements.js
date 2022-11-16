@@ -27,15 +27,9 @@ export const SlideWrapper = styled.div`
     /* border: 5px solid blue; */
 
     @media screen and (max-width: 768px) {
-        /* height: 590px; */
+        height: 600px;
         padding: 0 2px;
     }
-
-    /* @media screen and (max-width: 480px) {
-        max-width: 450px;
-        padding: 0 5px;
-        
-    } */
 `
 
 export const SlideRow = styled.div`
@@ -56,8 +50,6 @@ export const Column1 = styled.div`
     margin-bottom: 15px;
     padding: 0 10px;
     grid-area: col1;
-    /* width: 300px; */
-    /* border: 5px solid red; */
 `
 export const Column2 = styled.div`
     display: flex;
@@ -65,18 +57,10 @@ export const Column2 = styled.div`
     margin-bottom: 15px;
     padding: 0 10px;
     grid-area: col2;
-    /* width: 400px; */
-    /* border: 5px solid green; */
-    /* flex: 100%; */
-    /* max-width: 100%; */
-
 `
 export const Column3 = styled.div`
     display: flex;
     justify-content: center;
-    /* flex: 100%; */
-    /* max-width: 100%; */
-
     margin-bottom: 15px;
     padding: 0 10px;
     grid-area: col3;
@@ -84,11 +68,10 @@ export const Column3 = styled.div`
 
 export const TextWrapper = styled.div`
     max-width: 540px;
-    padding-top: 0px;
     padding-bottom: 60px;
 
     @media screen and (max-width: 768px) {
-        padding: 5px 30px;
+        padding: 0px 30px;
     }
 `
 
