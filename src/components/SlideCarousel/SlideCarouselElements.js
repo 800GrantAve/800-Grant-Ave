@@ -3,21 +3,12 @@ import {
     FaArrowAltCircleRight,
     FaArrowAltCircleLeft
 } from 'react-icons/fa'
-// import {
-//     SlArrowLeft,
-//     SlArrowRight
-// } from 'react-icons/sl'
-
 
 export const SlideCarouselContainer = styled.div`
-    /* color: #f1f1f1; */
-    /* background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')}; */
     height: 800px;
     padding-top: 100px;
     background: #f9f9f9;
-    /* display: flex;
-    flex-wrap: nowrap;
-    overflow: hidden; */
+    /* border: 5px solid blue; */
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -29,6 +20,11 @@ export const SlideCarouselWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 5px solid green; */
+
+    @media screen and (max-width: 768px) {
+        height: 600px;
+    }
 `
 
 export const SlideCarouselItem = styled.div`
@@ -52,7 +48,7 @@ export const ArrowLeft = styled(FaArrowAltCircleLeft)`
 
     @media screen and (max-width: 768px) {
         top: 100%;
-        padding-top: 25px;
+        padding-top: 50px;
     }
 `;
 
@@ -67,7 +63,7 @@ export const ArrowRight = styled(FaArrowAltCircleRight)`
     user-select: none;
 
     @media screen and (max-width: 768px) {
-        padding-top: 25px;
+        padding-top: 50px;
         top: 100%
     }
 `;
