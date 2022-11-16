@@ -5,11 +5,11 @@ export const SlideContainer = styled.div`
     background: #010606;
     border-radius: 15px;
     height: auto;
-    max-width: 100%;
-    border: 5px solid green;
+    /* max-width: 100%; */
+    /* border: 5px solid green; */
 
     @media screen and (max-width: 768px) {
-        /* padding: 20px 0; */
+        padding: 20px 0;
         height: 100%;
     }
 `
@@ -19,21 +19,21 @@ export const SlideWrapper = styled.div`
     z-index: 1;
     height: 650px;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
 
     @media screen and (max-width: 768px) {
-        /* max-width: 400px; */
+        max-width: 400px;
         padding: 0 5px;
         /* padding: 30px; */
     }
 
     @media screen and (max-width: 480px) {
-        /* max-width: 350px; */
+        max-width: 350px;
         padding: 0 5px;
         
     }
