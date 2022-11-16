@@ -52,7 +52,7 @@ export const ArrowLeft = styled(FaArrowAltCircleLeft)`
 
     @media screen and (max-width: 768px) {
         top: 100%;
-        padding-top: 20px;
+        padding-top: 25px;
     }
 `;
 
@@ -67,7 +67,7 @@ export const ArrowRight = styled(FaArrowAltCircleRight)`
     user-select: none;
 
     @media screen and (max-width: 768px) {
-        padding-top: 20px;
+        padding-top: 25px;
         top: 100%
     }
 `;
