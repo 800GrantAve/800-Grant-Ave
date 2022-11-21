@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SlideContainer = styled.div`
     color: #fff;
     background: #010606;
-    border-radius: 10px;
+    border-radius: 20px;
     /* height: auto; */
     /* max-width: 100%; */
     /* border: 5px solid green; */
