@@ -175,5 +175,35 @@ export const SlideData =
         primary: true,
         darkText: false
     },
+    {
+        id: 'slide12',
+        addImg: false,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'The Store: Shing Chong & Co.',
+        headline: 'Chinese New Year',
+        description: '"Early on, he started preparing for Chinese New Years with an elaborate array of Chinese water lilies. He innovatively nurtured them, fashioned them and then left them on the street stands in front of his store producing a heady aroma of pleasant smells as the passers-by viewed the swaying lilies" - Thomas Chinn',
+        img: require('../../images/store/plants.JPG'),
+        alt: 'water lilies',
+        alt2:'',
+        dark: true,
+        primary: true,
+        darkText: false
+    },
+    {
+        id: 'slide13',
+        addImg: false,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'The Store: Shing Chong & Co.',
+        headline: 'Chinese New Year',
+        description: '"Early on, he started preparing for Chinese New Years with an elaborate array of Chinese water lilies. He innovatively nurtured them, fashioned them and then left them on the street stands in front of his store producing a heady aroma of pleasant smells as the passers-by viewed the swaying lilies" - Thomas Chinn',
+        img: require('../../images/store/plants.JPG'),
+        alt: 'water lilies',
+        alt2:'',
+        dark: true,
+        primary: true,
+        darkText: false
+    },
     
 ]
