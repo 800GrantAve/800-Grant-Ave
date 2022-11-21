@@ -5,7 +5,7 @@ import {
     FooterLinksContainer, 
     FooterLinksWrapper, 
     FooterLinkItems, 
-    FooterLinkTitle, 
+    // FooterLinkTitle, 
     FooterLink,
     SocialMedia,
     SocialMediaWrap,
