@@ -13,6 +13,24 @@ export const FooterWrap = styled.div`
     max-width: 1100px;
     margin: 0 auto;
 `
+export const LogoWrap = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const FooterLogo = styled(LinkS)`
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 16px;
+    font-weight: bold;
+`;
 
 export const FooterLinksContainer = styled.div`
     display: flex;
@@ -68,6 +86,9 @@ export const FooterLink = styled(LinkS)`
 export const SocialMedia = styled.section`
     max-width: 1000px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 export const SocialMediaWrap = styled.div`
     display: flex;

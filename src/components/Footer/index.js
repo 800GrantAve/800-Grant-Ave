@@ -5,10 +5,11 @@ import {
     FooterLinksContainer, 
     FooterLinksWrapper, 
     FooterLinkItems, 
-    // FooterLinkTitle, 
+    FooterLogo, 
     FooterLink,
     SocialMedia,
     SocialMediaWrap,
+    LogoWrap,
     // SocialLogo,
     // SocialIcons,
     // SocialIconLink,
@@ -51,9 +52,21 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
             <SocialMediaWrap>
-                <WebsiteRights>Goals and Assists © {new Date().getFullYear()} All rights reserved</WebsiteRights>
+                <LogoWrap>
+                    <FooterLogo
+                        to='home'
+                        smooth={true} 
+                        duration={500} 
+                        spy={true} 
+                        exact='true' 
+                        offset={0}                 
+                    >
+                        Shing Chong & Co.
+                    </FooterLogo>
+                </LogoWrap>
             </SocialMediaWrap>
         </SocialMedia>
+        <WebsiteRights>Goals and Assists © {new Date().getFullYear()} All rights reserved</WebsiteRights>
     </FooterWrap>
 </FooterContainer>
   )
