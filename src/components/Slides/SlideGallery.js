@@ -27,6 +27,8 @@ const SlideGallery = ({
     img2,
     alt,
     alt2,
+    citation,
+    citation2,
     primary, 
     dark, 
     dark2
@@ -49,6 +51,7 @@ const SlideGallery = ({
                 <Column2>
                     <ImgWrap>
                         <Img src={img} alt={alt} />
+                        {/* <cite>{citation}</cite> */}
                     </ImgWrap>
                 </Column2>             
                 <Column3>
