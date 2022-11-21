@@ -103,7 +103,6 @@ export const SlideData =
         topLine: 'The Store: Shing Chong & Co.',
         headline: '800 Dupont St.',
         description: 'When he returned to San Francisco the store site at 800 Dupont (Grant) Ave looked like this.',
-
         img: require('../../images/store/clay_grant.jpg'),
         alt: '800 Dupont St.',
         alt2:'',
@@ -119,7 +118,6 @@ export const SlideData =
         topLine: 'The Store: Shing Chong & Co.',
         headline: 'Shing Ching & Co. Opens',
         description: 'Five years later he started Shing Chong & Co.',
-
         img: require('../../images/store/5years.jpg'),
         alt: '5 years later',
         alt2:'',
@@ -135,7 +133,6 @@ export const SlideData =
         topLine: 'The Store: Shing Chong & Co.',
         headline: 'Louie at his desk',
         description: '"Louie was an industrious and frugal man, stern and forceful, but under that outer skin was a man who was respected and greeted as a good merchandiser with an innovative mind...Orders came from far and near as his prompt response and fair dealing to friend and stranger alike became known" - Thomas Chinn',
-
         img: require('../../images/store/LouieFrugal.jpg'),
         alt: 'SS Mongolia',
         alt2:'',
@@ -151,7 +148,6 @@ export const SlideData =
         topLine: 'The Store: Shing Chong & Co.',
         headline: 'Chinese Deli',
         description: '"He was one of the first to experiment with Chinese delicatessen food. While such staples as roast duck and chicken, roast pig and cha siu were popular as early as the 1850\'s. Louie had his help start making his own Chinese sausage (lop cheung) and "bok shuey jee gek" (loosely translated as "white water pig\'s feet)" - Thomas Chinn',
-
         img: require('../../images/store/food.JPG'),
         alt: 'SS Mongolia',
         alt2:'',
@@ -207,7 +203,7 @@ export const SlideData =
     },
     {
         id: 'slide14',
-        addImg: false,
+        addImg: true,
         lightText: true,
         lightTextDesc: true,
         topLine: 'The Store: Shing Chong & Co.',
@@ -221,5 +217,20 @@ export const SlideData =
         primary: true,
         darkText: false
     },
-    
+    {
+        id: 'slide15',
+        addImg: true,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'The Store: Shing Chong & Co.',
+        headline: '76 years in business',
+        description: 'The store, and later a catering business, operated for 76 years.',
+        img: require('../../images/store/Portsmouthsquare.jpg'),
+        alt: 'Sailors',
+        img2: require('../../images/store/storeback.jpg'),
+        alt2:'store',
+        dark: true,
+        primary: true,
+        darkText: false
+    },
 ]
