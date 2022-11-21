@@ -3,14 +3,15 @@ import styled from "styled-components";
 export const SlideContainer = styled.div`
     color: #fff;
     background: #010606;
-    border-radius: 15px;
+    border-radius: 10px;
     /* height: auto; */
     /* max-width: 100%; */
     /* border: 5px solid green; */
 
     @media screen and (max-width: 768px) {
         padding: 50px 0;
-        height: 100%;
+        height: 800px;
+        border-radius: 0px;;
     }
 `
 
