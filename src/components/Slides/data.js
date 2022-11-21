@@ -242,7 +242,7 @@ export const SlideData =
         headline: '76 years in business',
         description: 'The store, and later a catering business, operated for 76 years.',
         img: require('../../images/store/Portsmouthsquare.jpg'),
-        alt: 'Sailors',
+        alt: 'Portsmouth square',
         img2: require('../../images/store/storeback.jpg'),
         alt2:'store',
         dark: true,
