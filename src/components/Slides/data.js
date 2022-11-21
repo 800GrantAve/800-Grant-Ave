@@ -219,6 +219,22 @@ export const SlideData =
     },
     {
         id: 'slide15',
+        addImg: false,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'The Store: Shing Chong & Co.',
+        headline: 'Catering Business',
+        description: '"Two of his children remained to help their father run Shing Chong. Fay and Charles (note: Oldest son Robery also worked at the store for many years before passing away in 1957). After WWII, the sons added a whole new department to the repertoire of Shing Chong with a gleaming stainless steel kitchen advertising catering. It was an immediate success."',
+        img: require('../../images/store/children.jpg'),
+        alt: 'Louie\'s children',
+        img2: '',
+        alt2:'',
+        dark: true,
+        primary: true,
+        darkText: false
+    },
+    {
+        id: 'slide16',
         addImg: true,
         lightText: true,
         lightTextDesc: true,
@@ -233,4 +249,21 @@ export const SlideData =
         primary: true,
         darkText: false
     },
+    {
+        id: 'slide17',
+        addImg: true,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'The Store: Shing Chong & Co.',
+        headline: 'Modern visions',
+        description: 'Thought was given to modernization',
+        img: require('../../images/store/rainbow.jpg'),
+        alt: 'Luie and son',
+        img2: require('../../images/store/modern.jpg'),
+        alt2:'Modern rendering of store',
+        dark: true,
+        primary: true,
+        darkText: false
+    },
+
 ]
