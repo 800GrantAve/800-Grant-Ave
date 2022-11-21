@@ -283,5 +283,23 @@ export const SlideData =
         primary: true,
         darkText: false
     },
+    {
+        id: 'slide19',
+        addImg: true,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'The Store: Shing Chong & Co.',
+        headline: 'Chinese Exculsion Act',
+        description: 'With the passage of the 1882 Chinese Exclusion Ace and followed by numerous other acts for decades, Congress attempted to bar Chinese immigrants to America, especially laborers and women. Even those legally in the country were subject to deportation or denial of re-entry if they travelled to China without proper documentation',
+        img: require('../../images/store/burbankprint1940.jpg'),
+        alt: 'burbank print 1940',
+        citation: 'https://foursquare.com/v/asian-image/4c4281e4e26920a1824460e7',
+        img2: require('../../images/store/angel-island-1916.jpg'),
+        alt2:'Angle Island circa 1916',
+        citation2: '',
+        dark: true,
+        primary: true,
+        darkText: false
+    },
 
 ]
