@@ -6,13 +6,13 @@ import {
     FooterLinksWrapper, 
     FooterLinkItems, 
     FooterLinkTitle, 
-    FooterLink
-    // SocialMedia,
-    // SocialMediaWrap,
+    FooterLink,
+    SocialMedia,
+    SocialMediaWrap,
     // SocialLogo,
     // SocialIcons,
     // SocialIconLink,
-    // WebsiteRights,
+    WebsiteRights,
     // AffiliateLink,
     // ImgWrap,
     // Img
@@ -25,11 +25,37 @@ const Footer = () => {
         <FooterLinksContainer>
             <FooterLinksWrapper>
                 <FooterLinkItems>
-                    <FooterLinkTitle>About Us</FooterLinkTitle>
-                    <FooterLink href="mailto:info@800grantave.com">Contact Us</FooterLink>
+                    <FooterLinkTitle>
+                        <FooterLink
+                           to='about'
+                           smooth={true} 
+                           duration={500} 
+                           spy={true} 
+                           exact='true' 
+                           offset={0}                            
+                        >
+                            About this Project
+                        </FooterLink>
+                        {/* <FooterLink
+                           to='photo'
+                           smooth={true} 
+                           duration={500} 
+                           spy={true} 
+                           exact='true' 
+                           offset={0}                            
+                        >
+                            Photo Gallery
+                        </FooterLink> */}
+                    </FooterLinkTitle>
+                    <FooterLink href="mailto:info@800grantave.com">Contact Us: info@800grantave.com</FooterLink>
                 </FooterLinkItems>
             </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+            <SocialMediaWrap>
+                <WebsiteRights>Goals and Assists © {new Date().getFullYear()} All rights reserved</WebsiteRights>
+            </SocialMediaWrap>
+        </SocialMedia>
     </FooterWrap>
 </FooterContainer>
   )

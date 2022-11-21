@@ -72,7 +72,6 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         // headline: '800 Dupont St.',
         description: 'The corner of Dupont and Clay in 1880.',
-
         img: require('../../images/store/circa1880.jpg'),
         img2: require('../../images/store/800Dupont2.jpg'),
         alt: 'Dupont St. (not Grant Ave.)',
@@ -89,9 +88,7 @@ export const SlideData =
         topLine: 'Shing Chong Store',
         // headline: '800 Dupont St.',
         description: 'Louie Wee Lee returned to San Francisco on October 9, 1906.',
-
         img: require('../../images/store/SS-Mongolia.jpg'),
-        // img2: require('../../images/store/800Dupont2.jpg'),
         alt: 'SS Mongolia',
         alt2:'',
         dark: true,

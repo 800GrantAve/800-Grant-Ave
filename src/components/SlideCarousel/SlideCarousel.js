@@ -8,8 +8,6 @@ import {
     ArrowLeft,
     ArrowRight
 } from './SlideCarouselElements'
-// import {Swiper, SwiperSlide} from 'swiper/react'
-// import 'swiper/swiper-bundle.css'
 
 const SlideCarousel = () => {
 
@@ -25,7 +23,7 @@ const SlideCarousel = () => {
     }
 
   return (
-    <SlideCarouselContainer>
+    <SlideCarouselContainer id='photo'>
             <SlideCarouselWrapper>
             <ArrowLeft onClick={prevSlide} />
             <ArrowRight onClick={nextSlide} />
