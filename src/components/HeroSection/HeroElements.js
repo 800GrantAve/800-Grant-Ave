@@ -65,7 +65,7 @@ export const HeroContent = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        bottom: 0px;
+        bottom: 25px;
     }
 `;
 

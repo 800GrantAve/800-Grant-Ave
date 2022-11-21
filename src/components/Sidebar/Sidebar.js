@@ -24,21 +24,21 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarLink 
                     to='about' 
                     onClick={toggle}
-                    offset={100}
+                    offset={-80}
                 >
                     About
                 </SidebarLink>
                 <SidebarLink 
                     to='photo' 
                     onClick={toggle}
-                    offset={100}
+                    offset={-80}
                 >
                     Photo Gallery
                 </SidebarLink>
                 <SidebarLink 
                     to='footer' 
                     onClick={toggle}
-                    offset={100}
+                    offset={-80}
                 >
                     Contact Us
                 </SidebarLink>

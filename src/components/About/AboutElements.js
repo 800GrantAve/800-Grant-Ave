@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const AboutContainer = styled.div`
     color: #fff;
     background: #010606;
+    
     /* width: auto; */
 
     @media screen and (max-width: 768px) {
@@ -11,15 +12,20 @@ export const AboutContainer = styled.div`
 `
 
 export const AboutWrapper = styled.div`
-    display: grid;
+    /* display: grid;
     z-index: 1;
     height: 860px;
-    /* width: 100%; */
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
+    justify-content: center; */
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 0 24px;
+    height: 800px;
+    /* overflow: hidden; */
 
     @media screen and (max-width: 768px) {
         /* max-width: 600px; */
