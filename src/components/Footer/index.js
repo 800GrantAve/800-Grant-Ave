@@ -25,7 +25,6 @@ const Footer = () => {
         <FooterLinksContainer>
             <FooterLinksWrapper>
                 <FooterLinkItems>
-                    <FooterLinkTitle>
                         <FooterLink
                            to='about'
                            smooth={true} 
@@ -36,7 +35,7 @@ const Footer = () => {
                         >
                             About this Project
                         </FooterLink>
-                        {/* <FooterLink
+                        <FooterLink
                            to='photo'
                            smooth={true} 
                            duration={500} 
@@ -45,8 +44,7 @@ const Footer = () => {
                            offset={0}                            
                         >
                             Photo Gallery
-                        </FooterLink> */}
-                    </FooterLinkTitle>
+                        </FooterLink>
                     <FooterLink href="mailto:info@800grantave.com">Contact Us: info@800grantave.com</FooterLink>
                 </FooterLinkItems>
             </FooterLinksWrapper>
