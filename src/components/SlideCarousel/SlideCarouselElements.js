@@ -43,8 +43,11 @@ export const ArrowLeft = styled(FaArrowAltCircleLeft)`
     user-select: none;
 
     @media screen and (max-width: 768px) {
-        top: 100%;
-        padding-top: 80px;
+        /* top: 100%;
+        padding-top: 80px; */
+        padding-top: 5%;
+        color: #fff;
+        top: 95%;
     }
 `;
 
@@ -59,7 +62,10 @@ export const ArrowRight = styled(FaArrowAltCircleRight)`
     user-select: none;
 
     @media screen and (max-width: 768px) {
-        padding-top: 80px;
-        top: 100%
+        /* padding-top: 80px;
+        top: 100% */
+        padding-top: 5%;
+        color: #fff;
+        top: 95%;
     }
 `;
