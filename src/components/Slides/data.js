@@ -201,22 +201,22 @@ export const SlideData =
         primary: true,
         darkText: false
     },
-    {
-        id: 'slide14',
-        addImg: true,
-        lightText: true,
-        lightTextDesc: true,
-        topLine: 'The Store: Shing Chong & Co.',
-        headline: 'WWII',
-        description: 'The store operated though two world wars',
-        img: require('../../images/store/sailors.jpg'),
-        alt: 'Sailors',
-        img2: require('../../images/store/wwII.jpg'),
-        alt2:'World War II',
-        dark: true,
-        primary: true,
-        darkText: false
-    },
+    // {
+    //     id: 'slide14',
+    //     addImg: true,
+    //     lightText: true,
+    //     lightTextDesc: true,
+    //     topLine: 'The Store: Shing Chong & Co.',
+    //     headline: 'WWII',
+    //     description: 'The store operated though two world wars',
+    //     img: require('../../images/store/sailors.jpg'),
+    //     alt: 'Sailors',
+    //     img2: require('../../images/store/wwII.jpg'),
+    //     alt2:'World War II',
+    //     dark: true,
+    //     primary: true,
+    //     darkText: false
+    // },
     {
         id: 'slide15',
         addImg: false,
