@@ -86,7 +86,7 @@ export const SlideData =
         lightText: true,
         lightTextDesc: true,
         topLine: 'The Store: Shing Chong & Co.',
-        // headline: '800 Dupont St.',
+        headline: 'SS Mongolia',
         description: 'Louie Wee Lee returned to San Francisco on October 9, 1906.',
         img: require('../../images/store/SS-Mongolia.jpg'),
         alt: 'SS Mongolia',
@@ -101,11 +101,11 @@ export const SlideData =
         lightText: true,
         lightTextDesc: true,
         topLine: 'The Store: Shing Chong & Co.',
-        // headline: '800 Dupont St.',
+        headline: '800 Dupont St.',
         description: 'When he returned to San Francisco the store site at 800 Dupont (Grant) Ave looked like this.',
 
         img: require('../../images/store/clay_grant.jpg'),
-        alt: 'SS Mongolia',
+        alt: '800 Dupont St.',
         alt2:'',
         dark: true,
         primary: true,
@@ -117,11 +117,11 @@ export const SlideData =
         lightText: true,
         lightTextDesc: true,
         topLine: 'The Store: Shing Chong & Co.',
-        // headline: '800 Dupont St.',
+        headline: 'Shing Ching & Co. Opens',
         description: 'Five years later he started Shing Chong & Co.',
 
         img: require('../../images/store/5years.jpg'),
-        alt: 'SS Mongolia',
+        alt: '5 years later',
         alt2:'',
         dark: true,
         primary: true,
@@ -133,7 +133,7 @@ export const SlideData =
         lightText: true,
         lightTextDesc: true,
         topLine: 'The Store: Shing Chong & Co.',
-        // headline: '800 Dupont St.',
+        headline: 'Louie at his desk',
         description: '"Louie was an industrious and frugal man, stern and forceful, but under that outer skin was a man who was respected and greeted as a good merchandiser with an innovative mind...Orders came from far and near as his prompt response and fair dealing to friend and stranger alike became known" - Thomas Chinn',
 
         img: require('../../images/store/LouieFrugal.jpg'),
@@ -149,7 +149,7 @@ export const SlideData =
         lightText: true,
         lightTextDesc: true,
         topLine: 'The Store: Shing Chong & Co.',
-        // headline: '800 Dupont St.',
+        headline: 'Chinese Deli',
         description: '"He was one of the first to experiment with Chinese delicatessen food. While such staples as roast duck and chicken, roast pig and cha siu were popular as early as the 1850\'s. Louie had his help start making his own Chinese sausage (lop cheung) and "bok shuey jee gek" (loosely translated as "white water pig\'s feet)" - Thomas Chinn',
 
         img: require('../../images/store/food.JPG'),
@@ -159,4 +159,21 @@ export const SlideData =
         primary: true,
         darkText: false
     },
+    {
+        id: 'slide11',
+        addImg: false,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'The Store: Shing Chong & Co.',
+        headline: 'Louie in front of his store',
+        description: '"Louie was proud of his store and often boasted that "Shing Chong could provide all the necessities from birth, for death, and everything in between."" - Thomas Chinn',
+
+        img: require('../../images/store/about.jpg'),
+        alt: 'Louie in front of store',
+        alt2:'',
+        dark: true,
+        primary: true,
+        darkText: false
+    },
+    
 ]

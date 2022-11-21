@@ -38,6 +38,7 @@ export const SlideRow = styled.div`
     grid-auto-columns: minmax(auto, 1fr 1fr);
     align-items: center;
     grid-template-areas: 'col1 col2 col3';
+    overflow: hidden;
 
     @media screen and (max-width: 768px) {
         grid-template-areas: 'col1 col1' 'col2 col3';
@@ -79,7 +80,7 @@ export const TextWrapper = styled.div`
 export const TopLine = styled.p`
     color: #800000;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 20px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
