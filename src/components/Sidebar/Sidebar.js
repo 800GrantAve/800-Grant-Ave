@@ -23,7 +23,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarLink 
                     to='about' 
                     onClick={toggle}
-                    offset={60}
+                    // offset={60}
                 >
                     About
                 </SidebarLink>
