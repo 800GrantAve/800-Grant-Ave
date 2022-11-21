@@ -8,6 +8,8 @@ import {
     ArrowLeft,
     ArrowRight
 } from './SlideCarouselElements'
+import { Splide, SplideSlide } from '@splidejs/react-splide'
+import '@splidejs/react-splide/css';
 
 const SlideCarousel = () => {
 
@@ -30,7 +32,7 @@ const SlideCarousel = () => {
                     { SlideData.map((slide, index) => {
                         return (
                             <SlideCarouselItem key={index}>
-                                {index === currentSlide && (<SlideGallery {...slide} />)}
+                                 {index === currentSlide && (<SlideGallery {...slide} />)}
                             </SlideCarouselItem>
                         )
                     })}
