@@ -61,11 +61,11 @@ export const HeroContent = styled.div`
     align-items: center;
 
     @media screen and (max-width: 768px) {
-        bottom: 0px;
+        bottom: 5%;
     }
 
     @media screen and (max-width: 480px) {
-        bottom: 25px;
+        bottom: 10%;
     }
 `;
 
