@@ -30,7 +30,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarLink 
                     to='photo' 
                     onClick={toggle}
-                    offset={60}
+                    offset={70}
                 >
                     Photo Gallery
                 </SidebarLink>
