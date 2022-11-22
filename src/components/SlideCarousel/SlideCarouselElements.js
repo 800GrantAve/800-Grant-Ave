@@ -38,7 +38,7 @@ export const ArrowLeft = styled(FaArrowAltCircleLeft)`
     top: 50%;
     left: 20%;
     font-size: 3rem;
-    color: #000;
+    color:rgb(0, 0, 0, 0.8);
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -59,7 +59,7 @@ export const ArrowRight = styled(FaArrowAltCircleRight)`
     top: 50%;
     right: 20%;
     font-size: 3rem;
-    color: #000;
+    color:rgb(0, 0, 0, 0.8);
     z-index: 10;
     cursor: pointer;
     user-select: none;
