@@ -7,7 +7,7 @@ export const SlideData =
         lightTextDesc: true,
         topLine: 'The Store: Shing Chong & Co.',
         headline: 'The History of 800 Grant Ave.',
-        description: 'Shing Chong & Co. Store',
+        description: 'Shing Chong & Co. store. Pronounced "Sing Charn" (reads right to left).',
         img: require('../../images/store/sign1.jpg'),
         alt: 'Shing Chong & Co. Sign',
         dark: true,
