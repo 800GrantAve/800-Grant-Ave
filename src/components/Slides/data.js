@@ -356,14 +356,14 @@ export const SlideData =
         darkText: false
     },
     {
-        id: 'slide22',
+        id: 'slide23',
         addImg: false,
         lightText: true,
         lightTextDesc: true,
         topLine: 'The Store: Shing Chong & Co.',
-        headline: '52 Store Partners',
-        description: 'Ultimately, Louie listed 52 or so partners in the store which meant that those people were also exempt and could travel back and forth to China and establish families. Today, hundreds, perhaps thousands of Chinese decendants are U.S. citizens as a result of Louie Wee Lee\'s intrepid efforts. Here is a log of people who used Shing Chong to travel from Angel Island Immigation Station.',
-        img: require('../../images/store/docs3.jpg'),
+        headline: 'Louie Wee Lee 1881-1970',
+        description: 'Shing Chong & Co. Founder.',
+        img: require('../../images/store/weefounder.jpg'),
         alt: 'log',
         citation: '',
         img2: '',
