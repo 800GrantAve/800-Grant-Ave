@@ -24,6 +24,7 @@ export const SlideCarouselWrapper = styled.div`
 `
 
 export const SlideCarouselItem = styled.div`
+
     /* height: 20rem;
     min-width: 100%;
     width: 100%;
@@ -47,7 +48,8 @@ export const ArrowLeft = styled(FaArrowAltCircleLeft)`
         padding-top: 80px; */
         padding-top: 5%;
         color:rgb(255, 255, 255, 0.4);
-        top: 95%;
+        top: 40%;
+        left: 5px;
     }
 `;
 
@@ -66,6 +68,7 @@ export const ArrowRight = styled(FaArrowAltCircleRight)`
         top: 100% */
         padding-top: 5%;
         color:rgb(255, 255, 255, 0.4);
-        top: 95%;
+        top: 40%;
+        right: 5px;
     }
 `;
