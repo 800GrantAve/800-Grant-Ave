@@ -146,7 +146,7 @@ export const Img = styled.img`
     max-width: 100%;
     /* margin: 0 0 10px 0; */
     object-fit: cover;
-    object-position: 50% 50%;
+    object-position: 100%;
     /* padding-right: 0; */
     border-radius: 10px;
 `

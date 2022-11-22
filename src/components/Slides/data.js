@@ -194,7 +194,7 @@ export const SlideData =
         topLine: 'The Store: Shing Chong & Co.',
         headline: 'WWII',
         description: '"During World War II, when importation of foodstuffs from the Far East was impossible, Louie came up with acceptable subsitutes such as Chinese brown sugar (wong tong). He turned his rooftop into a drying shed for such formerly imported items as dired duck (lop op), dehydrated cole..(choy gon), and..even salted fish (hom yee)." - Thomas Chinn. The store operated through two world wars.',
-        img: require('../../images/store/sailors2.jpg'),
+        img: require('../../images/store/sailors3.jpg'),
         alt: 'World War II',
         img2: require('../../images/store/wwII.jpg'),
         alt2:'World War II',
