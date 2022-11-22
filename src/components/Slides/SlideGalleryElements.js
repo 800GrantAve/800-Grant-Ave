@@ -115,11 +115,26 @@ export const ImgWrap = styled.div`
 
     
     @media screen and (max-width: 768px) {
-        max-width: 300px;
+        max-width: 250px;
         height: 100%;
         /* border: 5px solid red; */
     }
 `
+export const ImgWrap2 = styled.div`
+    max-width: 550px;
+    height: 100%;
+    /* border: 1px solid red; */
+    /* width: 100%;
+    height: auto; */
+
+    
+    @media screen and (max-width: 768px) {
+        max-width: 250px;
+        height: 100%;
+        /* border: 5px solid red; */
+    }
+`
+
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;

@@ -11,6 +11,7 @@ import {
     Heading,
     Subtitle,
     ImgWrap,
+    ImgWrap2,
     Img,
     Img2
 } from './SlideGalleryElements'
@@ -55,9 +56,11 @@ const SlideGallery = ({
                     </ImgWrap>
                 </Column2>             
                 <Column3>
-                    <ImgWrap>
+                { img2 ? (                    
+                    <ImgWrap2>
                         <Img2 src={img2} alt={alt2} />
-                    </ImgWrap>
+                    </ImgWrap2>) : null}
+
                 </Column3>
             </SlideRow>
         </SlideWrapper>
