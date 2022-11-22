@@ -337,5 +337,40 @@ export const SlideData =
         primary: true,
         darkText: false
     },
-
+    {
+        id: 'slide22',
+        addImg: false,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'The Store: Shing Chong & Co.',
+        headline: '52 Store Partners',
+        description: 'Ultimately, Louie listed 52 or so partners in the store which meant that those people were also exempt and could travel back and forth to China and establish families. Today, hundreds, perhaps thousands of Chinese decendants are U.S. citizens as a result of Louie Wee Lee\'s intrepid efforts. Here is a log of people who used Shing Chong to travel from Angel Island Immigation Station.',
+        img: require('../../images/store/docs3.jpg'),
+        alt: 'log',
+        citation: '',
+        img2: '',
+        alt2:'',
+        citation2: '',
+        dark: true,
+        primary: true,
+        darkText: false
+    },
+    {
+        id: 'slide22',
+        addImg: false,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'The Store: Shing Chong & Co.',
+        headline: '52 Store Partners',
+        description: 'Ultimately, Louie listed 52 or so partners in the store which meant that those people were also exempt and could travel back and forth to China and establish families. Today, hundreds, perhaps thousands of Chinese decendants are U.S. citizens as a result of Louie Wee Lee\'s intrepid efforts. Here is a log of people who used Shing Chong to travel from Angel Island Immigation Station.',
+        img: require('../../images/store/docs3.jpg'),
+        alt: 'log',
+        citation: '',
+        img2: '',
+        alt2:'',
+        citation2: '',
+        dark: true,
+        primary: true,
+        darkText: false
+    },
 ]
