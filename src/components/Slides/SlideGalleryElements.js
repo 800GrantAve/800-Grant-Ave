@@ -10,7 +10,7 @@ export const SlideContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         padding: 50px 0;
-        height: 700px;
+        height: 750px;
         border-radius: 0px;;
     }
 `
@@ -38,7 +38,7 @@ export const SlideRow = styled.div`
     grid-auto-columns: minmax(auto, 1fr 1fr);
     align-items: center;
     grid-template-areas: 'col1 col2 col3';
-    overflow: hidden;
+    /* overflow: hidden; */
 
     @media screen and (max-width: 768px) {
         grid-template-areas: 'col1 col1' 'col2 col3';
@@ -117,8 +117,8 @@ export const ImgWrap = styled.div`
 
     
     @media screen and (max-width: 768px) {
-        max-width: 260px;
-        height: auto;
+        max-width: 100%;
+        height: 270px;
         /* border: 5px solid red; */
     }
 `
@@ -132,8 +132,9 @@ export const ImgWrap2 = styled.div`
 
     
     @media screen and (max-width: 768px) {
-        max-width: 260px;
-        height: auto;
+        max-width: 100%;
+        height: 270px;
+
         /* border: 5px solid red; */
     }
 `
