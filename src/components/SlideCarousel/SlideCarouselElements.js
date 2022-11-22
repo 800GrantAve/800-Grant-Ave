@@ -36,7 +36,7 @@ export const SlideCarouselItem = styled.div`
 export const ArrowLeft = styled(FaArrowAltCircleLeft)`
     position: absolute;
     top: 50%;
-    left: 32px;
+    left: 20%;
     font-size: 3rem;
     color: #000;
     z-index: 10;
@@ -57,7 +57,7 @@ export const ArrowLeft = styled(FaArrowAltCircleLeft)`
 export const ArrowRight = styled(FaArrowAltCircleRight)`
     position: absolute;
     top: 50%;
-    right: 32px;
+    right: 20%;
     font-size: 3rem;
     color: #000;
     z-index: 10;
