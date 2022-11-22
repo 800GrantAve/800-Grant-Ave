@@ -209,7 +209,7 @@ export const SlideData =
         lightTextDesc: true,
         topLine: 'The Store: Shing Chong & Co.',
         headline: 'Catering Business',
-        description: 'Two of his children remained to help their father run Shing Chong. Fay and Charles (note: Oldest son Robery also worked at the store for many years before passing away in 1957).',
+        description: 'Two of his children remained to help their father run Shing Chong. Fay and Charles (note: Oldest son Robert also worked at the store for many years before passing away in 1957).',
         img: require('../../images/store/children.jpg'),
         alt: 'Louie\'s children',
         img2: '',

@@ -108,6 +108,7 @@ export const Subtitle = styled.p`
 
 export const ImgWrap = styled.div`
     display: flex;
+    /* flex-grow: 2; */
     /* box-sizing: border-box; */
     max-width: 550px;
     height: 100%;
@@ -124,6 +125,8 @@ export const ImgWrap = styled.div`
 `
 export const ImgWrap2 = styled.div`
     display: flex;
+    /* flex-basis: max-content; */
+    /* flex-grow: 2; */
     max-width: 550px;
     /* height: 100%; */
     /* border: 1px solid red; */
@@ -140,16 +143,18 @@ export const ImgWrap2 = styled.div`
 `
 
 export const Img = styled.img`
-    width: 100%;
-    margin: 0 0 10px 0;
+    max-width: 100%;
+    /* margin: 0 0 10px 0; */
     object-fit: cover;
+    object-position: 50% 50%;
     /* padding-right: 0; */
     border-radius: 10px;
 `
 export const Img2 = styled.img`
-    width: 100%;
-    margin: 0 0 10px 0;
+    max-width: 100%;
+    /* margin: 0 0 10px 0; */
     object-fit: cover;
+    object-position: 90% 50%;
     /* padding-left: 0; */
     border-radius: 10px;
 
