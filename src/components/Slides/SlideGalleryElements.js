@@ -38,6 +38,7 @@ export const SlideRow = styled.div`
     grid-auto-columns: minmax(auto, 1fr 1fr);
     align-items: center;
     grid-template-areas: 'col1 col2 col3';
+    /* row-gap: 2px; */
     /* overflow: hidden; */
 
     @media screen and (max-width: 768px) {
@@ -108,14 +109,10 @@ export const Subtitle = styled.p`
 
 export const ImgWrap = styled.div`
     display: flex;
-    /* flex-grow: 2; */
-    /* box-sizing: border-box; */
-    max-width: 550px;
-    height: 100%;
-    /* border: 1px solid red; */
-    /* width: 100%;
-    height: auto; */
-
+    /* max-width: 550px;
+    height: 100%; */
+    max-width: 650px;
+    height: 400px;
     
     @media screen and (max-width: 768px) {
         max-width: 100%;
@@ -125,14 +122,9 @@ export const ImgWrap = styled.div`
 `
 export const ImgWrap2 = styled.div`
     display: flex;
-    /* flex-basis: max-content; */
-    /* flex-grow: 2; */
-    max-width: 550px;
-    /* height: 100%; */
-    /* border: 1px solid red; */
-    /* width: 100%;
-    height: auto; */
-
+    /* max-width: 550px; */
+    max-width: 340px;
+    height: 400px;
     
     @media screen and (max-width: 768px) {
         max-width: 100%;
@@ -146,7 +138,7 @@ export const Img = styled.img`
     max-width: 100%;
     /* margin: 0 0 10px 0; */
     object-fit: cover;
-    object-position: 100%;
+    object-position: ${({position}) => (position ? 'right' : 'center' )};
     /* padding-right: 0; */
     border-radius: 10px;
 `
@@ -154,7 +146,7 @@ export const Img2 = styled.img`
     max-width: 100%;
     /* margin: 0 0 10px 0; */
     object-fit: cover;
-    object-position: 90% 50%;
+    object-position: ${({position}) => (position ? 'left' : 'center' )};
     /* padding-left: 0; */
     border-radius: 10px;
 

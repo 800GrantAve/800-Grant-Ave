@@ -28,6 +28,7 @@ const SlideGallery = ({
     img2,
     alt,
     alt2,
+    position,
     citation,
     citation2,
     primary, 
@@ -51,14 +52,14 @@ const SlideGallery = ({
                 </Column1>
                 <Column2>
                     <ImgWrap>
-                        <Img src={img} alt={alt} />
+                        <Img src={img} alt={alt} position={position} />
                         {/* <cite>{citation}</cite> */}
                     </ImgWrap>
                 </Column2>             
                 <Column3>
                 { img2 ? (                    
                     <ImgWrap2>
-                        <Img2 src={img2} alt={alt2} />
+                        <Img2 src={img2} alt={alt2} position={position} />
                     </ImgWrap2>) 
                     
                         : null}
