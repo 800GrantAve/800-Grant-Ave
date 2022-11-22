@@ -188,29 +188,14 @@ export const SlideData =
     },
     {
         id: 'slide13',
-        addImg: false,
-        lightText: true,
-        lightTextDesc: true,
-        topLine: 'The Store: Shing Chong & Co.',
-        headline: 'WWII',
-        description: '"During World War II, when importation of foodstuffs from the Far East was impossible, Louie came up with acceptable subsitutes such as Chinese brown sugar (wong tong). He turned his rooftop into a drying shed for such formerly imported items as dired duck (lop op), dehydrated cole..(choy gon), and..even salted fish (hom yee)." - Thomas Chinn',
-        img: require('../../images/store/plants.JPG'),
-        alt: 'World War II',
-        alt2:'',
-        dark: true,
-        primary: true,
-        darkText: false
-    },
-    {
-        id: 'slide14',
         addImg: true,
         lightText: true,
         lightTextDesc: true,
         topLine: 'The Store: Shing Chong & Co.',
         headline: 'WWII',
-        description: 'The store operated though two world wars',
+        description: '"During World War II, when importation of foodstuffs from the Far East was impossible, Louie came up with acceptable subsitutes such as Chinese brown sugar (wong tong). He turned his rooftop into a drying shed for such formerly imported items as dired duck (lop op), dehydrated cole..(choy gon), and..even salted fish (hom yee)." - Thomas Chinn. The store operated through two world wars.',
         img: require('../../images/store/sailors2.jpg'),
-        alt: 'Sailors',
+        alt: 'World War II',
         img2: require('../../images/store/wwII.jpg'),
         alt2:'World War II',
         dark: true,
@@ -218,7 +203,7 @@ export const SlideData =
         darkText: false
     },
     {
-        id: 'slide15',
+        id: 'slide14',
         addImg: false,
         lightText: true,
         lightTextDesc: true,
@@ -234,7 +219,7 @@ export const SlideData =
         darkText: false
     },
     {
-        id: 'slide16',
+        id: 'slide15',
         addImg: true,
         lightText: true,
         lightTextDesc: true,
@@ -250,7 +235,7 @@ export const SlideData =
         darkText: false
     },
     {
-        id: 'slide17',
+        id: 'slide16',
         addImg: true,
         lightText: true,
         lightTextDesc: true,
@@ -266,7 +251,7 @@ export const SlideData =
         darkText: false
     },
     {
-        id: 'slide18',
+        id: 'slide17',
         addImg: true,
         lightText: true,
         lightTextDesc: true,
@@ -284,7 +269,7 @@ export const SlideData =
         darkText: false
     },
     {
-        id: 'slide19',
+        id: 'slide18',
         addImg: true,
         lightText: true,
         lightTextDesc: true,
@@ -302,7 +287,7 @@ export const SlideData =
         darkText: false
     },
     {
-        id: 'slide20',
+        id: 'slide19',
         addImg: true,
         lightText: true,
         lightTextDesc: true,
@@ -320,7 +305,7 @@ export const SlideData =
         darkText: false
     },
     {
-        id: 'slide21',
+        id: 'slide20',
         addImg: true,
         lightText: true,
         lightTextDesc: true,
@@ -338,7 +323,7 @@ export const SlideData =
         darkText: false
     },
     {
-        id: 'slide22',
+        id: 'slide21',
         addImg: false,
         lightText: true,
         lightTextDesc: true,
@@ -356,7 +341,7 @@ export const SlideData =
         darkText: false
     },
     {
-        id: 'slide23',
+        id: 'slide22',
         addImg: true,
         lightText: true,
         lightTextDesc: true,
