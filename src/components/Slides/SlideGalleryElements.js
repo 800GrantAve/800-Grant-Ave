@@ -107,6 +107,8 @@ export const Subtitle = styled.p`
 `
 
 export const ImgWrap = styled.div`
+    display: flex;
+    /* box-sizing: border-box; */
     max-width: 550px;
     height: 100%;
     /* border: 1px solid red; */
@@ -115,37 +117,38 @@ export const ImgWrap = styled.div`
 
     
     @media screen and (max-width: 768px) {
-        max-width: 250px;
-        height: 100%;
-        border: 5px solid red;
+        max-width: 260px;
+        height: auto;
+        /* border: 5px solid red; */
     }
 `
 export const ImgWrap2 = styled.div`
+    display: flex;
     max-width: 550px;
-    height: 100%;
-    border: 1px solid red;
+    /* height: 100%; */
+    /* border: 1px solid red; */
     /* width: 100%;
     height: auto; */
 
     
     @media screen and (max-width: 768px) {
-        max-width: 250px;
-        height: 100%;
-        /* border: 5px solid red; */
+        max-width: 260px;
+        height: auto;
+        border: 5px solid red;
     }
 `
 
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    object-fit: contain;
+    object-fit: cover;
     /* padding-right: 0; */
     border-radius: 10px;
 `
 export const Img2 = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    object-fit: contain;
+    object-fit: cover;
     /* padding-left: 0; */
     border-radius: 10px;
 
