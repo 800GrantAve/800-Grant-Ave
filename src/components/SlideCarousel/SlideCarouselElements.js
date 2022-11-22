@@ -48,9 +48,9 @@ export const ArrowLeft = styled(FaArrowAltCircleLeft)`
         padding-top: 80px; */
         padding-top: 5%;
         color:rgb(255, 255, 255, 0.6);
-        top: 30%;
+        top: 40%;
         left: 0;
-        font-size: 2.5rem;
+        font-size: 2.75rem;
     }
 `;
 
@@ -69,8 +69,8 @@ export const ArrowRight = styled(FaArrowAltCircleRight)`
         top: 100% */
         padding-top: 5%;
         color:rgb(255, 255, 255, 0.6);
-        top: 30%;
+        top: 40%;
         right: 0;
-        font-size: 2.5rem;
+        font-size: 2.75rem;
     }
 `;
