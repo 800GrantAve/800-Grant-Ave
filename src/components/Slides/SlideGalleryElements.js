@@ -134,7 +134,7 @@ export const ImgWrap2 = styled.div`
     @media screen and (max-width: 768px) {
         max-width: 260px;
         height: auto;
-        border: 5px solid red;
+        /* border: 5px solid red; */
     }
 `
 
