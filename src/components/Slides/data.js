@@ -243,6 +243,7 @@ export const SlideData =
         alt: 'Portsmouth square',
         img2: require('../../images/store/storeback.jpg'),
         alt2:'store',
+        flex: true,
         dark: true,
         primary: true,
         darkText: false
