@@ -10,6 +10,7 @@ import {
     TopLine,
     Heading,
     Subtitle,
+    Quote,
     ImgWrap,
     ImgWrap2,
     Img,
@@ -23,7 +24,8 @@ const SlideGallery = ({
     lightText, 
     headline, 
     darkText, 
-    description, 
+    description,
+    quote, 
     img,
     img2,
     alt,
@@ -48,6 +50,9 @@ const SlideGallery = ({
                             </Heading>
                             <Subtitle>
                                 {description}
+                                <Quote>
+                                    {quote}
+                                </Quote>
                             </Subtitle>
                     </TextWrapper>
                 </Column1>

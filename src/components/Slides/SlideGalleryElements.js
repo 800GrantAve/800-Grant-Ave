@@ -107,6 +107,14 @@ export const Subtitle = styled.p`
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
 
+export const Quote = styled.p`
+    max-width: 440px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+`
+
 export const ImgWrap = styled.div`
     display: ${({flex}) => (flex ? 'flex' : 'initial')};
     /* justify-content: center; */
