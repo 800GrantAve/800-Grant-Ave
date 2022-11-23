@@ -51,7 +51,7 @@ const SlideGallery = ({
                             <Subtitle>
                                 {description}
                                 <Quote>
-                                    {quote}
+                                   <br /> {quote}
                                 </Quote>
                             </Subtitle>
                     </TextWrapper>

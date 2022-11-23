@@ -9,7 +9,7 @@ export const SlideContainer = styled.div`
     /* border: 5px solid green; */
 
     @media screen and (max-width: 768px) {
-        padding: 50px 0;
+        padding: 25px 0;
         height: 750px;
         border-radius: 0px;;
     }
