@@ -108,7 +108,9 @@ export const Subtitle = styled.p`
 `
 
 export const ImgWrap = styled.div`
-    display: ${({flex}) => (flex ? 'flex' : 'flex')};
+    display: ${({flex}) => (flex ? 'flex' : 'initial')};
+    /* justify-content: center; */
+    /* align-items: center; */
     /* max-width: 550px;
     height: 100%; */
     max-width: 650px;
@@ -122,7 +124,7 @@ export const ImgWrap = styled.div`
     }
 `
 export const ImgWrap2 = styled.div`
-    display: flex;
+    display: ${({flex}) => (flex ? 'flex' : 'initial')};
     /* max-width: 550px; */
     max-width: 340px;
     height: 400px;

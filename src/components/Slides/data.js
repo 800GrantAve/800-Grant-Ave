@@ -27,6 +27,7 @@ export const SlideData =
 
         img: require('../../images/store/louie.jpg'),
         alt: 'Plane',
+        flex: true,
         dark: true,
         primary: true,
         darkText: false
@@ -137,7 +138,7 @@ export const SlideData =
         img: require('../../images/store/LouieFrugal.jpg'),
         alt: 'Louie Wee Lee',
         alt2:'',
-        flex: false,
+        flex: true,
         dark: true,
         primary: true,
         darkText: false
@@ -153,6 +154,7 @@ export const SlideData =
         img: require('../../images/store/food.JPG'),
         alt: 'Chinese Deli',
         alt2:'',
+        flex: true,
         dark: true,
         primary: true,
         darkText: false
@@ -169,6 +171,7 @@ export const SlideData =
         img: require('../../images/store/about.jpg'),
         alt: 'Louie in front of store',
         alt2:'',
+        flex: true,
         dark: true,
         primary: true,
         darkText: false
@@ -283,7 +286,7 @@ export const SlideData =
         img: require('../../images/store/burbank.jpg'),
         alt: 'burbank print 1940',
         citation: 'https://foursquare.com/v/asian-image/4c4281e4e26920a1824460e7',
-        img2: require('../../images/store/angel-island1.jpg'),
+        img2: require('../../images/store/angel-island-1916.jpg'),
         alt2:'Angle Island circa 1916',
         position: false,
         citation2: '',
