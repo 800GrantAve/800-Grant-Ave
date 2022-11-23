@@ -108,11 +108,12 @@ export const Subtitle = styled.p`
 `
 
 export const ImgWrap = styled.div`
-    display: flex;
+    display: ${({flex}) => (flex ? 'flex' : 'flex')};
     /* max-width: 550px;
     height: 100%; */
     max-width: 650px;
     height: 400px;
+    /* border: 5px solid blue; */
     
     @media screen and (max-width: 768px) {
         max-width: 100%;
@@ -141,6 +142,7 @@ export const Img = styled.img`
     object-position: ${({position}) => (position ? 'right' : 'center' )};
     /* padding-right: 0; */
     border-radius: 10px;
+    /* border: 5px solid red; */
 `
 export const Img2 = styled.img`
     max-width: 100%;

@@ -29,6 +29,7 @@ const SlideGallery = ({
     alt,
     alt2,
     position,
+    flex,
     citation,
     citation2,
     primary, 
@@ -51,14 +52,14 @@ const SlideGallery = ({
                     </TextWrapper>
                 </Column1>
                 <Column2>
-                    <ImgWrap>
+                    <ImgWrap flex={flex}>
                         <Img src={img} alt={alt} position={position} />
                         {/* <cite>{citation}</cite> */}
                     </ImgWrap>
                 </Column2>             
                 <Column3>
                 { img2 ? (                    
-                    <ImgWrap2>
+                    <ImgWrap2 flex={flex}>
                         <Img2 src={img2} alt={alt2} position={position} />
                     </ImgWrap2>) 
                     
