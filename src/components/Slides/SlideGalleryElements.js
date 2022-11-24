@@ -57,6 +57,7 @@ export const Column1 = styled.div`
 export const Column2 = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 15px;
     padding: 0 10px;
     grid-area: col2;

@@ -42,15 +42,15 @@ export const ArrowLeft = styled(FaArrowAltCircleLeft)`
     z-index: 10;
     cursor: pointer;
     user-select: none;
+    /* border: 1px solid red; */
+    
 
-    @media screen and (max-width: 1300px) {
-        /* top: 100%;
-        padding-top: 80px; */
-        padding-top: 2%;
+    @media screen and (max-width: 1323px) {
+        /* padding-top: 2%; */
         color:rgb(255, 255, 255, 0.6);
         top: 40%;
-        left: 0;
-        /* font-size: 2rem; */
+        left: 7%;
+        font-size: 2rem;
     }
 
     @media screen and (max-width: 768px) {
@@ -73,15 +73,14 @@ export const ArrowRight = styled(FaArrowAltCircleRight)`
     z-index: 10;
     cursor: pointer;
     user-select: none;
+    /* border: 1px solid red; */
 
-    @media screen and (max-width: 1300px) {
-        /* top: 100%;
-        padding-top: 80px; */
-        padding-top: 2%;
+    @media screen and (max-width: 1323px) {
+        /* padding-top: 2%; */
         color:rgb(255, 255, 255, 0.6);
         top: 40%;
-        right: 0;
-        /* font-size: 2rem; */
+        right: 7%;
+        font-size: 2rem;
     }
 
     @media screen and (max-width: 768px) {
