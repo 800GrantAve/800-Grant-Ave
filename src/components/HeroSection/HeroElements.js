@@ -80,9 +80,6 @@ export const HeroH1 = styled.h1`
   font-size: 38px;
   text-align: center;
   font-family: "Acme", sans-serif;
-  /* font-family: "Cabin", sans-serif; */
-  /* font-family: "Paytone One", sans-serif; */
-  /* font-family: "Rammetto One", cursive; */
 
   @media screen and (max-width: 768px) {
     font-size: 28px;
