@@ -78,7 +78,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: #fff;
+  color: #638078;
   /* color: ${({ scrollNav }) => (scrollNav ? "#fff" : "#000")}; */
   display: flex;
   align-items: center;
