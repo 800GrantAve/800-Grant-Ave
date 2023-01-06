@@ -87,6 +87,7 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
   font-weight: bold;
+  font-family: "Acme", sans-serif;
 
   &.active {
     border-bottom: 3px solid #800000;
