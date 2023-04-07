@@ -3,10 +3,7 @@ import styled from 'styled-components';
 export const AboutContainer = styled.div`
   color: #fff;
   background: #010606;
-
-  @media screen and (max-width: 480px) {
-    padding: 60px 0;
-  }
+  padding: 60px 0;
 `;
 
 export const AboutWrapper = styled.div`
@@ -14,15 +11,6 @@ export const AboutWrapper = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 24px;
-  height: 800px;
-
-  @media screen and (max-width: 768px) {
-    /* max-width: 600px; */
-  }
-
-  @media screen and (max-width: 480px) {
-    /* max-width: 350px; */
-  }
 `;
 
 export const AboutRow = styled.div`
@@ -30,7 +18,7 @@ export const AboutRow = styled.div`
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
   grid-template-areas: 'col2 col1';
-  grid-template-columns: 450px auto;
+  grid-template-columns: 400px auto;
 
   @media screen and (max-width: 768px) {
     grid-template-areas: 'col1' 'col2';
@@ -43,10 +31,8 @@ export const AboutRow = styled.div`
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
-  /* padding: 0 15px; */
   grid-area: col1;
   padding-left: 60px;
-  /* border: 5px solid blue; */
 `;
 export const Column2 = styled.div`
   display: flex;
