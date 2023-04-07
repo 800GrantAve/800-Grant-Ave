@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 export const SlideCarouselContainer = styled.div`
-  padding-top: 10vh;
+  height: 70vh;
+  padding-top: 100px;
   background: #f9f9f9;
 `;
 
