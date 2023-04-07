@@ -5,6 +5,10 @@ export const SlideCarouselContainer = styled.div`
   height: 70vh;
   padding-top: 100px;
   background: #f9f9f9;
+
+  @media screen and (max-width: 768px) {
+    height: 100vh;
+  }
 `;
 
 export const SlideCarouselWrapper = styled.div`
