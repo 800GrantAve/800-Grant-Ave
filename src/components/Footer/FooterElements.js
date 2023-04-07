@@ -10,6 +10,10 @@ export const FooterWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 820px) {
+    padding: 350px 24px;
+  }
 `;
 export const LogoWrap = styled.div`
   display: flex;
