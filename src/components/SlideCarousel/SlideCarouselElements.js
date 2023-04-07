@@ -2,13 +2,8 @@ import styled from 'styled-components';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 export const SlideCarouselContainer = styled.div`
-  height: 800px;
-  padding-top: 100px;
+  padding-top: 10vh;
   background: #f9f9f9;
-
-  @media screen and (max-width: 768px) {
-    height: 600px;
-  }
 `;
 
 export const SlideCarouselWrapper = styled.div`
