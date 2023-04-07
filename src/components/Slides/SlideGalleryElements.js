@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const SlideContainer = styled.div`
   color: #fff;
@@ -37,12 +37,12 @@ export const SlideRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr 1fr);
   align-items: center;
-  grid-template-areas: "col1 col2 col3";
+  grid-template-areas: 'col1 col2 col3';
   /* row-gap: 2px; */
   /* overflow: hidden; */
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: "col1 col1" "col2 col3";
+    grid-template-areas: 'col1 col1' 'col2 col3';
     grid-template-areas: ${({ addImg }) =>
       addImg ? `'col1 col1' 'col2 col3'` : `'col1' 'col2' 'col3'`};
   }
@@ -83,12 +83,11 @@ export const TextWrapper = styled.div`
 export const TopLine = styled.p`
   color: #638078;
   font-size: 18px;
-  /* line-height: 20px; */
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
@@ -100,7 +99,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1.%;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
+  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
   @media screen and (max-width: 768px) {
     font-size: 32px;
@@ -111,7 +110,11 @@ export const Subtitle = styled.p`
   margin-bottom: 10px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 export const Quote = styled.p`
@@ -119,11 +122,11 @@ export const Quote = styled.p`
   margin-bottom: 10px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
 `;
 
 export const ImgWrap = styled.div`
-  display: ${({ flex }) => (flex ? "flex" : "initial")};
+  display: ${({ flex }) => (flex ? 'flex' : 'initial')};
   /* justify-content: center; */
   /* align-items: center; */
   /* max-width: 550px;
@@ -139,7 +142,7 @@ export const ImgWrap = styled.div`
   }
 `;
 export const ImgWrap2 = styled.div`
-  display: ${({ flex }) => (flex ? "flex" : "initial")};
+  display: ${({ flex }) => (flex ? 'flex' : 'initial')};
   /* max-width: 550px; */
   max-width: 340px;
   height: 400px;
@@ -156,7 +159,7 @@ export const Img = styled.img`
   max-width: 100%;
   /* margin: 0 0 10px 0; */
   object-fit: cover;
-  object-position: ${({ position }) => (position ? "right" : "center")};
+  object-position: ${({ position }) => (position ? 'right' : 'center')};
   /* padding-right: 0; */
   border-radius: 10px;
   /* border: 5px solid red; */
@@ -165,7 +168,7 @@ export const Img2 = styled.img`
   max-width: 100%;
   /* margin: 0 0 10px 0; */
   object-fit: cover;
-  object-position: ${({ position }) => (position ? "left" : "center")};
+  object-position: ${({ position }) => (position ? 'left' : 'center')};
   /* padding-left: 0; */
   border-radius: 10px;
 `;
