@@ -1,31 +1,20 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
   color: #fff;
   background: #010606;
 
-  /* width: auto; */
-
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 480px) {
     padding: 60px 0;
   }
 `;
 
 export const AboutWrapper = styled.div`
-  /* display: grid;
-    z-index: 1;
-    height: 860px;
-    max-width: 1100px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 24px;
-    justify-content: center; */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 24px;
   height: 800px;
-  /* overflow: hidden; */
 
   @media screen and (max-width: 768px) {
     /* max-width: 600px; */
@@ -40,15 +29,15 @@ export const AboutRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: "col2 col1";
+  grid-template-areas: 'col2 col1';
   grid-template-columns: 450px auto;
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: "col1" "col2";
+    grid-template-areas: 'col1' 'col2';
   }
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: "col1" "col2";
+    grid-template-areas: 'col1' 'col2';
   }
 `;
 
@@ -87,7 +76,7 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
 
   @media screen and (max-width: 768px) {
     font-size: 14px;
@@ -100,7 +89,7 @@ export const Heading = styled.h1`
   line-height: 1.1.%;
   font-weight: 600;
   color: #638078;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
 
   @media screen and (max-width: 768px) {
     font-size: 20px;
@@ -112,7 +101,7 @@ export const Subtitle = styled.p`
   margin-bottom: 10px;
   font-size: 18px;
   line-height: 24px;
-  color: "#f7f8fa";
+  color: '#f7f8fa';
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
