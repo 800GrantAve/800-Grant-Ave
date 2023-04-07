@@ -3,6 +3,8 @@ import { Link as LinkS } from 'react-scroll';
 
 export const FooterContainer = styled.footer`
   background-color: #101522;
+  border: 5px solid red;
+  height: 600px;
 `;
 export const FooterWrap = styled.div`
   padding: 48px 24px;
@@ -12,7 +14,7 @@ export const FooterWrap = styled.div`
   align-items: center;
 
   @media screen and (max-width: 820px) {
-    padding: 250px 24px;
+    padding: 350px 24px;
   }
 `;
 export const LogoWrap = styled.div`
