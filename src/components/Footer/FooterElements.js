@@ -12,7 +12,7 @@ export const FooterWrap = styled.div`
   align-items: center;
 
   @media screen and (max-width: 820px) {
-    padding: 120px 24px;
+    padding: 250px 24px;
   }
 `;
 export const LogoWrap = styled.div`
